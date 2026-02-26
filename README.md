@@ -135,6 +135,8 @@ LAN9662 + Ouster LiDAR에서 `cycle=781us` TAS를 실측한 레포.
 - `data/soak_781p25_order_compare_20260226_143637.md`
 - `data/allopen_vs_smallopen_20260226_151542.json`
 - `data/allopen_vs_smallopen_20260226_151542.md`
+- `data/fine_front_compare_20260226_161307.json`
+- `data/fine_front_compare_20260226_161307.md`
 
 핵심:
 - 질문처럼 open을 더 넓히면 안정성은 실제로 개선됨.
@@ -174,6 +176,25 @@ LAN9662 + Ouster LiDAR에서 `cycle=781us` TAS를 실측한 레포.
 - close 앞/뒤 조절은 분명 효과가 있음(최적 ratio/phase가 존재).
 - 하지만 현재 단일 LiDAR 경로에선 `open<=50us`가 all-open 동등 수준까지 올라오지 못함.
 - 즉 \"큐 안쌓이게\"를 목표로 all-open과 동등하게 만들려면 open을 더 크게 잡아야 함.
+
+추가 검증 (비율 대신 절대 ns 미세조정, 2026-02-26):
+- 요구사항 반영: ratio 스윕이 아니라 `close_front_ns` 절대값을 직접 조정.
+- 조건: `cycle=781250ns`, `open=150000ns`, `phase=0ns`, `phase_lock=false`
+- 비교값:
+  - `front=305625ns` / `back=325625ns`
+  - `front=315625ns` / `back=315625ns`
+  - `front=325625ns` / `back=305625ns`
+
+결과(120초씩):
+- all-open: `fc_mean=99.750`, `fc_p01=97.077`, `fps_mean=9.860`
+- front 305625: `fc_mean=99.784`, `fc_p01=97.598`, `fps_mean=10.002`  ← best
+- front 315625: `fc_mean=99.715`, `fc_p01=95.818`, `fps_mean=10.001`
+- front 325625: `fc_mean=99.726`, `fc_p01=96.466`, `fps_mean=10.003`
+
+해석:
+- 같은 `open=150us`라도 `close front/back`를 ns 단위로 조정하면 하위 퍼센타일이 달라짐.
+- 즉, \"시작점 + 앞뒤 close\" 미세정렬이 실제로 의미 있음.
+- 현재 단일 LiDAR 운영 최적값은 `305625 / 150000 / 325625`로 갱신.
 
 ## 라이다 시작점(위치) 어떻게 맞췄는가
 
