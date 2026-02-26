@@ -156,7 +156,8 @@ LAN9662 + Ouster LiDAR에서 `cycle=781us` TAS를 실측한 레포.
 
 현재 적용 운영값(2026-02-26):
 - cycle: `781.25us` (`781250ns`)
-- entries: `close 315.625us / open 150us / close 315.625us`
+- entries: `close 305.625us / open 150us / close 325.625us`
+- phase offset: `180000ns` (base-time = switch current-time + offset + phase)
 - phase_lock: `false`
 - switch fetch 기준 `config-pending: false` 확인
 
@@ -194,7 +195,29 @@ LAN9662 + Ouster LiDAR에서 `cycle=781us` TAS를 실측한 레포.
 해석:
 - 같은 `open=150us`라도 `close front/back`를 ns 단위로 조정하면 하위 퍼센타일이 달라짐.
 - 즉, \"시작점 + 앞뒤 close\" 미세정렬이 실제로 의미 있음.
-- 현재 단일 LiDAR 운영 최적값은 `305625 / 150000 / 325625`로 갱신.
+- 당시(120s 단기) 단일 LiDAR 운영 최적값은 `305625 / 150000 / 325625`로 갱신.
+
+추가 검증 (절대 ns + phase 장시간 deep-opt, 2026-02-26):
+- 파일:
+  - `data/deep_opt_150ns_20260226_170215.json`
+  - `data/deep_opt_150ns_20260226_170215.md`
+- 방법:
+  - coarse: `front={295625,300625,305625,310625,315625}` x `phase=0..781250 step 20000`
+  - top3 후보 선별 후 장시간 soak `600s`씩 비교 (`all_open` + 후보 3개)
+- 결과(요약):
+  - `all_open`: `fc_p01=96.527`, `fc_mean=99.713`
+  - `cand1 (front=305625, phase=220000)`: `fc_p01=96.719`, `fc_mean=99.692`
+  - `cand2 (front=305625, phase=200000)`: `fc_p01=96.812`, `fc_mean=99.706`
+  - `cand3 (front=305625, phase=180000)`: `fc_p01=97.187`, `fc_mean=99.731`  ← best
+- delta(best - all_open):
+  - `fc_mean +0.018`
+  - `fc_p01 +0.661`
+  - `fps_mean ~0` (거의 동일)
+
+결론:
+- 비율이 아니라 절대 `ns`와 `phase`를 같이 미세조정하면 하위 퍼센타일 안정성이 실제로 개선됨.
+- 장시간 기준 현재 best는 `close/open/close = 305625 / 150000 / 325625` + `phase=180000ns`.
+- 재현 스크립트: `scripts/run_deep_opt_150ns.py`
 
 ## 라이다 시작점(위치) 어떻게 맞췄는가
 
@@ -282,6 +305,12 @@ python3 scripts/run_50us_phase_alignment_experiments.py \
   --duration 2.0 \
   --interval 0.2 \
   --settle 0.4
+```
+
+2-4. 150us deep optimization (절대 ns + 장시간 600s)
+```bash
+cd /home/kim/lidar-tas260226
+python3 scripts/run_deep_opt_150ns.py
 ```
 
 2-4. 781.25us open 폭 정밀 리파인
