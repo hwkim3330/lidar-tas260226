@@ -95,6 +95,18 @@ LAN9662 + Ouster LiDAR에서 `cycle=781us` TAS를 실측한 레포.
 - `lidar_mode=1024x10` 변경만으로도 경계 안정화되지 않음
 - 현재 구성에서 안정 경계는 여전히 146us 이상
 
+추가 실험 (3-slot 분할, 웹서버 API 기반, 2026-02-26):
+- `data/three_slot_server_matrix_20260226_131000.json`
+- `data/three_slot_server_matrix_20260226_131000.md`
+- `data/three_slot_30_recheck_20260226_132545.json`
+
+핵심:
+- 3-slot(`open-close-open`)로 나눠도 안정성이 자동으로 좋아지지 않음.
+- `781/150` 계열 3분할(예: `75/631/75`, `30/631/120`)은 단일 150 대비 개선 근거가 없음.
+- `781/30` 계열 3분할은 오히려 큰 드롭 케이스가 반복됨.
+- 재검증에서 `single_30`도 FAIL로 확인되어, `30us` 운용값 가설은 재현성 부족.
+- 결론: 단일 LiDAR 안정 운용은 계속 `open >= 146us`(권장 `150us`)가 맞음.
+
 ## 멀티 LiDAR 전략 (안정 우선)
 
 핵심:
@@ -147,6 +159,15 @@ python3 scripts/run_single_lidar_long_opt.py \
   --phase-ns 0 \
   --duration 25 \
   --repeats 3
+```
+
+2-2. 3-slot(open-close-open) 장시간 매트릭스
+```bash
+cd /home/kim/lidar-tas260226
+python3 scripts/run_3slot_server_experiments.py \
+  --duration-s 60 \
+  --settle-s 6 \
+  --sample-period-s 0.5
 ```
 
 3. 단일 스윕

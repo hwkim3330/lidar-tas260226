@@ -1,0 +1,439 @@
+{
+  "timestamp": "20260226_131000",
+  "cycle_us": 781,
+  "duration_s": 60,
+  "settle_s": 6,
+  "sample_period_s": 0.5,
+  "results": [
+    {
+      "name": "single_150",
+      "mode": "single",
+      "cycle_us": 781,
+      "applied": {
+        "name": "single_150",
+        "mode": "single",
+        "open_us": 150
+      },
+      "tas_state": {
+        "close_us": 631,
+        "cycle_us": 781,
+        "enabled": true,
+        "entries": [
+          {
+            "duration_us": 150,
+            "gate": 255
+          },
+          {
+            "duration_us": 631,
+            "gate": 254
+          }
+        ],
+        "mode": "single",
+        "open_pct": 19,
+        "open_us": 150
+      },
+      "summary": {
+        "n": 118,
+        "complete_avg_pct": 99.80500454908977,
+        "complete_min_pct": 96.79949435271573,
+        "complete_p05_pct": 98.59328131158327,
+        "fps_avg": 10.00162549088268,
+        "jitter_avg_us": 1869.5199441473121,
+        "jitter_p95_us": 2140.176695001894,
+        "burst_avg_pct": 29.804266967031978,
+        "pps_avg": 1550.5349631283518
+      },
+      "stable": false,
+      "sample_count": 118
+    },
+    {
+      "name": "triple150_75_631_75",
+      "mode": "multi",
+      "cycle_us": 781,
+      "applied": {
+        "name": "triple150_75_631_75",
+        "mode": "multi",
+        "entries": [
+          {
+            "gate": 255,
+            "duration_us": 75
+          },
+          {
+            "gate": 254,
+            "duration_us": 631
+          },
+          {
+            "gate": 255,
+            "duration_us": 75
+          }
+        ]
+      },
+      "tas_state": {
+        "close_us": 631,
+        "cycle_us": 781,
+        "enabled": true,
+        "entries": [
+          {
+            "duration_us": 75,
+            "gate": 255
+          },
+          {
+            "duration_us": 631,
+            "gate": 254
+          },
+          {
+            "duration_us": 75,
+            "gate": 255
+          }
+        ],
+        "mode": "multi",
+        "open_pct": 19,
+        "open_us": 150
+      },
+      "summary": {
+        "n": 118,
+        "complete_avg_pct": 99.80698142473291,
+        "complete_min_pct": 97.31016381738812,
+        "complete_p05_pct": 98.62334933337257,
+        "fps_avg": 10.001359464036199,
+        "jitter_avg_us": 1857.825249171072,
+        "jitter_p95_us": 2214.4722129843967,
+        "burst_avg_pct": 30.376791303686332,
+        "pps_avg": 1603.42182543475
+      },
+      "stable": false,
+      "sample_count": 118
+    },
+    {
+      "name": "triple150_30_631_120",
+      "mode": "multi",
+      "cycle_us": 781,
+      "applied": {
+        "name": "triple150_30_631_120",
+        "mode": "multi",
+        "entries": [
+          {
+            "gate": 255,
+            "duration_us": 30
+          },
+          {
+            "gate": 254,
+            "duration_us": 631
+          },
+          {
+            "gate": 255,
+            "duration_us": 120
+          }
+        ]
+      },
+      "tas_state": {
+        "close_us": 631,
+        "cycle_us": 781,
+        "enabled": true,
+        "entries": [
+          {
+            "duration_us": 30,
+            "gate": 255
+          },
+          {
+            "duration_us": 631,
+            "gate": 254
+          },
+          {
+            "duration_us": 120,
+            "gate": 255
+          }
+        ],
+        "mode": "multi",
+        "open_pct": 19,
+        "open_us": 150
+      },
+      "summary": {
+        "n": 118,
+        "complete_avg_pct": 99.81384926999326,
+        "complete_min_pct": 97.65975900819458,
+        "complete_p05_pct": 98.72998033185493,
+        "fps_avg": 10.001881040343065,
+        "jitter_avg_us": 1870.503733585357,
+        "jitter_p95_us": 2139.5948543784216,
+        "burst_avg_pct": 31.04644370631345,
+        "pps_avg": 1591.3341800154394
+      },
+      "stable": false,
+      "sample_count": 118
+    },
+    {
+      "name": "triple150_120_631_30",
+      "mode": "multi",
+      "cycle_us": 781,
+      "applied": {
+        "name": "triple150_120_631_30",
+        "mode": "multi",
+        "entries": [
+          {
+            "gate": 255,
+            "duration_us": 120
+          },
+          {
+            "gate": 254,
+            "duration_us": 631
+          },
+          {
+            "gate": 255,
+            "duration_us": 30
+          }
+        ]
+      },
+      "tas_state": {
+        "close_us": 631,
+        "cycle_us": 781,
+        "enabled": true,
+        "entries": [
+          {
+            "duration_us": 120,
+            "gate": 255
+          },
+          {
+            "duration_us": 631,
+            "gate": 254
+          },
+          {
+            "duration_us": 30,
+            "gate": 255
+          }
+        ],
+        "mode": "multi",
+        "open_pct": 19,
+        "open_us": 150
+      },
+      "summary": {
+        "n": 118,
+        "complete_avg_pct": 99.6189179992253,
+        "complete_min_pct": 95.38973288310113,
+        "complete_p05_pct": 97.24056191366347,
+        "fps_avg": 10.003356221739987,
+        "jitter_avg_us": 1883.8585383214877,
+        "jitter_p95_us": 2136.5862649021274,
+        "burst_avg_pct": 31.86089872898515,
+        "pps_avg": 1776.4374578274987
+      },
+      "stable": false,
+      "sample_count": 118
+    },
+    {
+      "name": "single_30",
+      "mode": "single",
+      "cycle_us": 781,
+      "applied": {
+        "name": "single_30",
+        "mode": "single",
+        "open_us": 30
+      },
+      "tas_state": {
+        "close_us": 751,
+        "cycle_us": 781,
+        "enabled": true,
+        "entries": [
+          {
+            "duration_us": 30,
+            "gate": 255
+          },
+          {
+            "duration_us": 751,
+            "gate": 254
+          }
+        ],
+        "mode": "single",
+        "open_pct": 4,
+        "open_us": 30
+      },
+      "summary": {
+        "n": 119,
+        "complete_avg_pct": 99.99986996470078,
+        "complete_min_pct": 99.99986996470078,
+        "complete_p05_pct": 99.99986996470078,
+        "fps_avg": 10.012257857376355,
+        "jitter_avg_us": 1812.8782904348761,
+        "jitter_p95_us": 1812.8782904348761,
+        "burst_avg_pct": 27.32103290682821,
+        "pps_avg": 1546.2259853495068
+      },
+      "stable": true,
+      "sample_count": 119
+    },
+    {
+      "name": "triple30_15_751_15",
+      "mode": "multi",
+      "cycle_us": 781,
+      "applied": {
+        "name": "triple30_15_751_15",
+        "mode": "multi",
+        "entries": [
+          {
+            "gate": 255,
+            "duration_us": 15
+          },
+          {
+            "gate": 254,
+            "duration_us": 751
+          },
+          {
+            "gate": 255,
+            "duration_us": 15
+          }
+        ]
+      },
+      "tas_state": {
+        "close_us": 751,
+        "cycle_us": 781,
+        "enabled": true,
+        "entries": [
+          {
+            "duration_us": 15,
+            "gate": 255
+          },
+          {
+            "duration_us": 751,
+            "gate": 254
+          },
+          {
+            "duration_us": 15,
+            "gate": 255
+          }
+        ],
+        "mode": "multi",
+        "open_pct": 4,
+        "open_us": 30
+      },
+      "summary": {
+        "n": 118,
+        "complete_avg_pct": 99.72947163241065,
+        "complete_min_pct": 87.81240604949629,
+        "complete_p05_pct": 98.54332710476515,
+        "fps_avg": 9.674872048788897,
+        "jitter_avg_us": 27420.931362080635,
+        "jitter_p95_us": 30575.829315110175,
+        "burst_avg_pct": 30.570213547366734,
+        "pps_avg": 1583.1251117694828
+      },
+      "stable": false,
+      "sample_count": 118
+    },
+    {
+      "name": "triple30_5_751_25",
+      "mode": "multi",
+      "cycle_us": 781,
+      "applied": {
+        "name": "triple30_5_751_25",
+        "mode": "multi",
+        "entries": [
+          {
+            "gate": 255,
+            "duration_us": 5
+          },
+          {
+            "gate": 254,
+            "duration_us": 751
+          },
+          {
+            "gate": 255,
+            "duration_us": 25
+          }
+        ]
+      },
+      "tas_state": {
+        "close_us": 751,
+        "cycle_us": 781,
+        "enabled": true,
+        "entries": [
+          {
+            "duration_us": 5,
+            "gate": 255
+          },
+          {
+            "duration_us": 751,
+            "gate": 254
+          },
+          {
+            "duration_us": 25,
+            "gate": 255
+          }
+        ],
+        "mode": "multi",
+        "open_pct": 4,
+        "open_us": 30
+      },
+      "summary": {
+        "n": 118,
+        "complete_avg_pct": 99.53460110081704,
+        "complete_min_pct": 96.09211368347229,
+        "complete_p05_pct": 97.42576028915818,
+        "fps_avg": 10.002281050890224,
+        "jitter_avg_us": 1879.2750654801664,
+        "jitter_p95_us": 2160.1059003297273,
+        "burst_avg_pct": 34.41417028427736,
+        "pps_avg": 1684.173028943918
+      },
+      "stable": false,
+      "sample_count": 118
+    },
+    {
+      "name": "triple30_25_751_5",
+      "mode": "multi",
+      "cycle_us": 781,
+      "applied": {
+        "name": "triple30_25_751_5",
+        "mode": "multi",
+        "entries": [
+          {
+            "gate": 255,
+            "duration_us": 25
+          },
+          {
+            "gate": 254,
+            "duration_us": 751
+          },
+          {
+            "gate": 255,
+            "duration_us": 5
+          }
+        ]
+      },
+      "tas_state": {
+        "close_us": 751,
+        "cycle_us": 781,
+        "enabled": true,
+        "entries": [
+          {
+            "duration_us": 25,
+            "gate": 255
+          },
+          {
+            "duration_us": 751,
+            "gate": 254
+          },
+          {
+            "duration_us": 5,
+            "gate": 255
+          }
+        ],
+        "mode": "multi",
+        "open_pct": 4,
+        "open_us": 30
+      },
+      "summary": {
+        "n": 120,
+        "complete_avg_pct": 87.37128904879872,
+        "complete_min_pct": 87.37128904879872,
+        "complete_p05_pct": 87.37128904879872,
+        "fps_avg": 9.464124981481053,
+        "jitter_avg_us": 39795.429419481676,
+        "jitter_p95_us": 39795.429419481676,
+        "burst_avg_pct": 31.965243617884198,
+        "pps_avg": 1363.7193912328723
+      },
+      "stable": false,
+      "sample_count": 120
+    }
+  ]
+}
