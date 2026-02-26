@@ -71,6 +71,19 @@ LAN9662 + Ouster LiDAR에서 `cycle=781us` TAS를 실측한 레포.
 - `data/single_lidar_long_opt_20260226_110713.json`
 - `data/single_lidar_long_opt_20260226_110713.md`
 
+
+추가 경계 실험 (phase 전체 스윕, 2026-02-26):
+- `data/phase_sweep_open144_20260226_112449.json`
+- `data/phase_sweep_open146_20260226_112727.json`
+- `data/phase_sweep_open148_20260226_113004.json`
+- `data/phase_sweep_open150_20260226_113241.json`
+- 요약: `data/phase_sweep_boundary_20260226.md`
+
+경계 결론:
+- `144us`: phase 민감(0~97.96%, 99.9% 통과 0/40)
+- `146us`: phase 강건(99.95~100%, 99.9% 통과 40/40)
+- 따라서 최소 안정 경계는 `146us`, 운영 권장은 `150us`.
+
 ## 멀티 LiDAR 전략 (안정 우선)
 
 핵심:
