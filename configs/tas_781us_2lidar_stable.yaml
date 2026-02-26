@@ -1,0 +1,27 @@
+- ? "/ietf-interfaces:interfaces/interface[name='1']/ieee802-dot1q-bridge:bridge-port/ieee802-dot1q-sched-bridge:gate-parameter-table"
+  : gate-enabled: true
+    admin-gate-states: 255
+    admin-cycle-time:
+      numerator: 781000
+      denominator: 1000000000
+    admin-base-time:
+      seconds: 0
+      nanoseconds: 0
+    admin-control-list:
+      gate-control-entry:
+        # Slot A: LiDAR#1 on TC0
+        - index: 0
+          operation-name: set-gate-states
+          gate-states-value: 249   # 0xF9 = TC0 + TC3..TC7
+          time-interval-value: 280000
+        # Slot B: LiDAR#2 on TC1
+        - index: 1
+          operation-name: set-gate-states
+          gate-states-value: 250   # 0xFA = TC1 + TC3..TC7
+          time-interval-value: 280000
+        # Guard: close TC0/TC1/TC2
+        - index: 2
+          operation-name: set-gate-states
+          gate-states-value: 248   # 0xF8 = TC3..TC7 only
+          time-interval-value: 221000
+    config-change: true

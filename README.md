@@ -66,6 +66,36 @@ LAN9662 + Ouster LiDAR에서 `cycle=781us` TAS를 실측한 레포.
 - 최소화 실험은 `160 -> 152 -> 148 -> 144`처럼 경계 근처를 촘촘히 검증.
 - `28us`는 실험값으로는 의미가 있어도 운영 목표값으로는 비권장.
 
+## 멀티 LiDAR 전략 (안정 우선)
+
+핵심:
+- \"딱 맞는 최소폭\"보다 \"충분한 슬롯 + guard\"가 장기적으로 안정적.
+- 여러 LiDAR를 안 겹치게 하려면 TC를 분리하고 TDMA 슬롯으로 고정.
+
+권장:
+1. LiDAR#1/#2/#3를 각각 `TC0/TC1/TC2`로 매핑
+2. 781us 주기 내에서 슬롯 분할 + guard
+3. 장시간 테스트(최소 10분, 가능하면 30분)로 drop 0 확인
+
+제공 템플릿:
+- `configs/tas_781us_2lidar_stable.yaml`  (280us + 280us + guard 221us)
+- `configs/tas_781us_3lidar_stable.yaml`  (200us + 200us + 200us + guard 181us)
+
+적용:
+```bash
+cd /home/kim/keti-tsn-cli-new
+./keti-tsn patch /home/kim/lidar-tas260226/configs/tas_781us_3lidar_stable.yaml
+```
+
+자동 생성:
+```bash
+cd /home/kim/lidar-tas260226
+python3 scripts/generate_multilidar_tas.py \
+  --cycle-us 781 \
+  --slots-us 200,200,200 \
+  --output /tmp/tas_3lidar.yaml
+```
+
 ## 실행 방법
 
 1. LiDAR 설정 (UDP 목적지 + timestamp mode)
