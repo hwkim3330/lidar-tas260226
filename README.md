@@ -133,6 +133,8 @@ LAN9662 + Ouster LiDAR에서 `cycle=781us` TAS를 실측한 레포.
 - `data/refine_781p25_open_20260226_143346.md`
 - `data/soak_781p25_order_compare_20260226_143637.json`
 - `data/soak_781p25_order_compare_20260226_143637.md`
+- `data/allopen_vs_smallopen_20260226_151542.json`
+- `data/allopen_vs_smallopen_20260226_151542.md`
 
 핵심:
 - 질문처럼 open을 더 넓히면 안정성은 실제로 개선됨.
@@ -155,6 +157,23 @@ LAN9662 + Ouster LiDAR에서 `cycle=781us` TAS를 실측한 레포.
 - entries: `close 315.625us / open 150us / close 315.625us`
 - phase_lock: `false`
 - switch fetch 기준 `config-pending: false` 확인
+
+추가 검증 (\"큐 안쌓이면 all-open과 같아지는가\", 2026-02-26):
+- 방법: all-open baseline을 먼저 120s 측정 후,
+  `close-open-close`에서 `open=30/40/50us` 각각에 대해
+  `close_front_ratio + phase`를 탐색해 최적점을 찾아 120s soak 비교.
+- 스크립트: `scripts/run_small_open_vs_allopen.py`
+
+요약:
+- all-open: `fc_mean=99.926`, `fps_mean=9.870`
+- best 30us: `ratio=0.20`, `phase=0ns` -> `fc_mean=90.389`, `fps_mean=4.889`
+- best 40us: `ratio=0.20`, `phase=651040ns` -> `fc_mean=93.843`, `fps_mean=5.773`
+- best 50us: `ratio=0.50`, `phase=390624ns` -> `fc_mean=97.274`, `fps_mean=6.117`
+
+결론:
+- close 앞/뒤 조절은 분명 효과가 있음(최적 ratio/phase가 존재).
+- 하지만 현재 단일 LiDAR 경로에선 `open<=50us`가 all-open 동등 수준까지 올라오지 못함.
+- 즉 \"큐 안쌓이게\"를 목표로 all-open과 동등하게 만들려면 open을 더 크게 잡아야 함.
 
 ## 라이다 시작점(위치) 어떻게 맞췄는가
 
@@ -263,6 +282,18 @@ python3 scripts/run_781p25_long_soak_compare.py \
   --sample-period-s 0.5 \
   --settle-s 8 \
   --phase-ns 0
+```
+
+2-6. all-open vs small-open(30/40/50us) 검증
+```bash
+cd /home/kim/lidar-tas260226
+python3 scripts/run_small_open_vs_allopen.py \
+  --opens-us 30,40,50 \
+  --phases 12 \
+  --close-front-ratios 0.2,0.35,0.5,0.65,0.8 \
+  --search-duration-s 1.0 \
+  --soak-duration-s 120 \
+  --settle-s 0.25
 ```
 
 3. 단일 스윕
