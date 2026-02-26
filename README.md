@@ -313,7 +313,7 @@ cd /home/kim/lidar-tas260226
 python3 scripts/run_deep_opt_150ns.py
 ```
 
-2-4. 781.25us open 폭 정밀 리파인
+2-5. 781.25us open 폭 정밀 리파인
 ```bash
 cd /home/kim/lidar-tas260226
 python3 scripts/run_781p25_open_refine.py \
@@ -324,7 +324,7 @@ python3 scripts/run_781p25_open_refine.py \
   --settle 0.35
 ```
 
-2-5. 781.25us 장시간 순서 비교(질문: close-open-close vs open-close-open)
+2-6. 781.25us 장시간 순서 비교(질문: close-open-close vs open-close-open)
 ```bash
 cd /home/kim/lidar-tas260226
 python3 scripts/run_781p25_long_soak_compare.py \
@@ -334,7 +334,7 @@ python3 scripts/run_781p25_long_soak_compare.py \
   --phase-ns 0
 ```
 
-2-6. all-open vs small-open(30/40/50us) 검증
+2-7. all-open vs small-open(30/40/50us) 검증
 ```bash
 cd /home/kim/lidar-tas260226
 python3 scripts/run_small_open_vs_allopen.py \
@@ -345,6 +345,39 @@ python3 scripts/run_small_open_vs_allopen.py \
   --soak-duration-s 120 \
   --settle-s 0.25
 ```
+
+## 재적용/재검증 체크리스트
+
+1. LiDAR/웹서버 기동 확인
+```bash
+pgrep -af "python3 scripts/lidar_tas_server.py"
+curl -s http://127.0.0.1:8080/api/stats | jq -c '{fps,frame_completeness,pps}'
+```
+2. 운영 TAS 적용 (best)
+```bash
+cd /home/kim/keti-tsn-cli-new
+./keti-tsn patch /home/kim/lidar-tas260226/_deep_opt_runtime.yaml
+```
+만약 위 파일이 없으면(또는 patch 실패 시) 아래로 best를 재생성:
+```bash
+cd /home/kim/lidar-tas260226
+python3 scripts/run_deep_opt_150ns.py
+```
+3. 스위치 적용값 검증
+```bash
+cd /home/kim/keti-tsn-cli-new
+./keti-tsn fetch /home/kim/lidar-tas/configs/fetch-tas.yaml
+```
+검증 포인트:
+- `admin/oper` entry: `305625 / 150000 / 325625`
+- `admin-cycle-time.numerator: 781250`
+- `config-pending: false`
+4. 센서 phase lock 상태 확인
+```bash
+curl -s -X POST \
+  "http://192.168.6.11/api/v1/sensor/cmd/get_config_param?args=active%20phase_lock_enable"
+```
+기대값: `false`
 
 3. 단일 스윕
 ```bash
