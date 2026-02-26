@@ -412,9 +412,9 @@ cd /home/kim/keti-tsn-cli-new
 ./keti-tsn patch /home/kim/lidar-tas260226/configs/tas_disable_all_open.yaml
 ```
 
-## 논문 초안 자료
+## 논문 원고 자료
 
-1. 논문 초안: `paper/manuscript_draft_ko.md`
+1. 논문 원고(국문 완성본 v1): `paper/manuscript_draft_ko.md`
 2. 표 자동생성:
 ```bash
 cd /home/kim/lidar-tas260226
