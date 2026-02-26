@@ -411,3 +411,13 @@ python3 scripts/tas_781_wide_to_narrow.py \
 cd /home/kim/keti-tsn-cli-new
 ./keti-tsn patch /home/kim/lidar-tas260226/configs/tas_disable_all_open.yaml
 ```
+
+## 논문 초안 자료
+
+1. 논문 초안: `paper/manuscript_draft_ko.md`
+2. 표 자동생성:
+```bash
+cd /home/kim/lidar-tas260226
+python3 scripts/generate_paper_tables.py
+```
+3. 생성 표: `paper/results_tables.md`
