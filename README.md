@@ -131,6 +131,8 @@ LAN9662 + Ouster LiDAR에서 `cycle=781us` TAS를 실측한 레포.
 - `data/phase_align_781p25_20260226_135910.md`
 - `data/refine_781p25_open_20260226_143346.json`
 - `data/refine_781p25_open_20260226_143346.md`
+- `data/soak_781p25_order_compare_20260226_143637.json`
+- `data/soak_781p25_order_compare_20260226_143637.md`
 
 핵심:
 - 질문처럼 open을 더 넓히면 안정성은 실제로 개선됨.
@@ -140,6 +142,19 @@ LAN9662 + Ouster LiDAR에서 `cycle=781us` TAS를 실측한 레포.
   - PASS(>=99.9% & fps>=9.5) `16/20`, `fc_min=99.59%`, `fc_mean=99.95%`
 - 50~120us 구간은 일부 phase에서 잘 되지만, phase 전구간 강건성은 150us보다 낮음.
 - 즉, 실운영 안정 우선이면 `open=150us` 계열이 가장 안전.
+- 장시간(15분 x 2) 순서 비교 결과:
+  - `open-close-open (75/631.25/75)`:
+    - `fc_mean=99.716`, `fc_p01=96.438`, `fc_p05=98.420`, `fc_min=94.567`
+  - `close-open-close (315.625/150/315.625)`:
+    - `fc_mean=99.715`, `fc_p01=96.719`, `fc_p05=98.488`, `fc_min=94.464`
+  - 평균은 거의 동일하지만, 하위 퍼센타일(`p01/p05`)은 `close-open-close`가 근소 우위.
+  - 따라서 현재 운영 추천값은 `close-open-close`로 갱신.
+
+현재 적용 운영값(2026-02-26):
+- cycle: `781.25us` (`781250ns`)
+- entries: `close 315.625us / open 150us / close 315.625us`
+- phase_lock: `false`
+- switch fetch 기준 `config-pending: false` 확인
 
 ## 라이다 시작점(위치) 어떻게 맞췄는가
 
@@ -238,6 +253,16 @@ python3 scripts/run_781p25_open_refine.py \
   --duration 1.8 \
   --interval 0.2 \
   --settle 0.35
+```
+
+2-5. 781.25us 장시간 순서 비교(질문: close-open-close vs open-close-open)
+```bash
+cd /home/kim/lidar-tas260226
+python3 scripts/run_781p25_long_soak_compare.py \
+  --duration-s 900 \
+  --sample-period-s 0.5 \
+  --settle-s 8 \
+  --phase-ns 0
 ```
 
 3. 단일 스윕
