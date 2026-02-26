@@ -1,0 +1,5898 @@
+{
+  "cycle_ns": 781250,
+  "phase_step_ns": 39062,
+  "rows": [
+    {
+      "phase_lock": false,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 0,
+      "fc_mean": 99.98322087317295,
+      "fc_min": 99.98322087317295,
+      "fps_mean": 9.9671572629207,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 39062,
+      "fc_mean": 99.98322087317295,
+      "fc_min": 99.98322087317295,
+      "fps_mean": 9.9671572629207,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 78124,
+      "fc_mean": 99.98322087317295,
+      "fc_min": 99.98322087317295,
+      "fps_mean": 9.9671572629207,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 117186,
+      "fc_mean": 94.98353327253618,
+      "fc_min": 87.00798664081564,
+      "fps_mean": 2.7714857165557096,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 156248,
+      "fc_mean": 98.42919421239505,
+      "fc_min": 98.42919421239505,
+      "fps_mean": 1.9276330615588735,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 195310,
+      "fc_mean": 98.42919421239505,
+      "fc_min": 98.42919421239505,
+      "fps_mean": 1.9276330615588735,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 234372,
+      "fc_mean": 98.42919421239505,
+      "fc_min": 98.42919421239505,
+      "fps_mean": 1.9276330615588735,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 273434,
+      "fc_mean": 98.42919421239505,
+      "fc_min": 98.42919421239505,
+      "fps_mean": 1.9276330615588735,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 312496,
+      "fc_mean": 98.42919421239505,
+      "fc_min": 98.42919421239505,
+      "fps_mean": 1.9276330615588735,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 351558,
+      "fc_mean": 98.42919421239505,
+      "fc_min": 98.42919421239505,
+      "fps_mean": 1.9276330615588735,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 390620,
+      "fc_mean": 98.42919421239505,
+      "fc_min": 98.42919421239505,
+      "fps_mean": 1.9276330615588735,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 429682,
+      "fc_mean": 98.42919421239505,
+      "fc_min": 98.42919421239505,
+      "fps_mean": 1.9276330615588735,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 468744,
+      "fc_mean": 98.42919421239505,
+      "fc_min": 98.42919421239505,
+      "fps_mean": 1.9276330615588735,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 507806,
+      "fc_mean": 91.91024158526487,
+      "fc_min": 80.00376469345541,
+      "fps_mean": 1.2818062997873028,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 546868,
+      "fc_mean": 92.70544534708283,
+      "fc_min": 81.20622183496711,
+      "fps_mean": 1.7767359628784318,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 585930,
+      "fc_mean": 97.71106001907715,
+      "fc_min": 97.71106001907715,
+      "fps_mean": 3.496431954212794,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 624992,
+      "fc_mean": 97.71106001907715,
+      "fc_min": 97.71106001907715,
+      "fps_mean": 3.496431954212794,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 664054,
+      "fc_mean": 97.71106001907715,
+      "fc_min": 97.71106001907715,
+      "fps_mean": 3.496431954212794,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 703116,
+      "fc_mean": 97.71106001907715,
+      "fc_min": 97.71106001907715,
+      "fps_mean": 3.496431954212794,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 742178,
+      "fc_mean": 97.71106001907715,
+      "fc_min": 97.71106001907715,
+      "fps_mean": 3.496431954212794,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 0,
+      "fc_mean": 97.71106001907715,
+      "fc_min": 97.71106001907715,
+      "fps_mean": 3.496431954212794,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 39062,
+      "fc_mean": 97.71106001907715,
+      "fc_min": 97.71106001907715,
+      "fps_mean": 3.496431954212794,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 78124,
+      "fc_mean": 97.71106001907715,
+      "fc_min": 97.71106001907715,
+      "fps_mean": 3.496431954212794,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 117186,
+      "fc_mean": 97.71106001907715,
+      "fc_min": 97.71106001907715,
+      "fps_mean": 3.496431954212794,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 156248,
+      "fc_mean": 91.5105927129073,
+      "fc_min": 77.68608461378325,
+      "fps_mean": 1.444369409511567,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 195310,
+      "fc_mean": 99.81284363324552,
+      "fc_min": 99.50607993585858,
+      "fps_mean": 9.318387575062161,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 234372,
+      "fc_mean": 99.99831982912784,
+      "fc_min": 99.9955658996841,
+      "fps_mean": 9.990943779576986,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 273434,
+      "fc_mean": 98.75518510601749,
+      "fc_min": 97.1750853888314,
+      "fps_mean": 9.980552472858292,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 312496,
+      "fc_mean": 99.95118954561023,
+      "fc_min": 99.87118545213801,
+      "fps_mean": 10.02071855684831,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 351558,
+      "fc_mean": 99.99956181077275,
+      "fc_min": 99.99884358488582,
+      "fps_mean": 10.015225454337278,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 390620,
+      "fc_mean": 99.9999960662157,
+      "fc_min": 99.99998961844032,
+      "fps_mean": 9.972992686616893,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 429682,
+      "fc_mean": 99.03905295001125,
+      "fc_min": 97.01171872460415,
+      "fps_mean": 9.966972972718885,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 468744,
+      "fc_mean": 99.96269501663303,
+      "fc_min": 99.90154927616446,
+      "fps_mean": 10.033062288824885,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 507806,
+      "fc_mean": 99.99964776961583,
+      "fc_min": 99.9989602023453,
+      "fps_mean": 10.013224341791672,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 546868,
+      "fc_mean": 99.99999646291403,
+      "fc_min": 99.99999066535774,
+      "fps_mean": 9.972564895879383,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 585930,
+      "fc_mean": 99.99999996762658,
+      "fc_min": 99.99999991619953,
+      "fps_mean": 9.982364240267426,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 624992,
+      "fc_mean": 99.37907804377083,
+      "fc_min": 98.27277343661493,
+      "fps_mean": 10.006644991800453,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 664054,
+      "fc_mean": 99.99439277273852,
+      "fc_min": 99.98449405803422,
+      "fps_mean": 9.98559596036841,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 703116,
+      "fc_mean": 99.73881469090298,
+      "fc_min": 99.1034958245934,
+      "fps_mean": 10.005141965759455,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 742178,
+      "fc_mean": 99.98450969951767,
+      "fc_min": 99.95911990417169,
+      "fps_mean": 9.990876084148336,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 0,
+      "fc_mean": 99.99984935990129,
+      "fc_min": 99.9995682405765,
+      "fps_mean": 9.99112621986937,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 39062,
+      "fc_mean": 97.5040806501547,
+      "fc_min": 93.24770224237224,
+      "fps_mean": 6.973509841091226,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 78124,
+      "fc_mean": 99.18361010691113,
+      "fc_min": 99.18361010691113,
+      "fps_mean": 6.498652194483762,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 117186,
+      "fc_mean": 99.18361010691113,
+      "fc_min": 99.18361010691113,
+      "fps_mean": 6.498652194483762,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 156248,
+      "fc_mean": 99.18361010691113,
+      "fc_min": 99.18361010691113,
+      "fps_mean": 6.498652194483762,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 195310,
+      "fc_mean": 99.18361010691113,
+      "fc_min": 99.18361010691113,
+      "fps_mean": 6.498652194483762,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 234372,
+      "fc_mean": 99.18361010691113,
+      "fc_min": 99.18361010691113,
+      "fps_mean": 6.498652194483762,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 273434,
+      "fc_mean": 99.18361010691113,
+      "fc_min": 99.18361010691113,
+      "fps_mean": 6.498652194483762,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 312496,
+      "fc_mean": 99.18361010691113,
+      "fc_min": 99.18361010691113,
+      "fps_mean": 6.498652194483762,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 351558,
+      "fc_mean": 99.18361010691113,
+      "fc_min": 99.18361010691113,
+      "fps_mean": 6.498652194483762,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 390620,
+      "fc_mean": 99.18361010691113,
+      "fc_min": 99.18361010691113,
+      "fps_mean": 6.498652194483762,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 429682,
+      "fc_mean": 93.51582686757658,
+      "fc_min": 83.20312705224329,
+      "fps_mean": 2.925540801525229,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 468744,
+      "fc_mean": 96.27270232260986,
+      "fc_min": 89.98972423343076,
+      "fps_mean": 3.716917024303317,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 507806,
+      "fc_mean": 98.70827483503602,
+      "fc_min": 98.70827483503602,
+      "fps_mean": 5.367232086543851,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 546868,
+      "fc_mean": 98.70827483503602,
+      "fc_min": 98.70827483503602,
+      "fps_mean": 5.367232086543851,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 585930,
+      "fc_mean": 98.70827483503602,
+      "fc_min": 98.70827483503602,
+      "fps_mean": 5.367232086543851,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 624992,
+      "fc_mean": 98.70827483503602,
+      "fc_min": 98.70827483503602,
+      "fps_mean": 5.367232086543851,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 664054,
+      "fc_mean": 98.70827483503602,
+      "fc_min": 98.70827483503602,
+      "fps_mean": 5.367232086543851,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 703116,
+      "fc_mean": 98.70827483503602,
+      "fc_min": 98.70827483503602,
+      "fps_mean": 5.367232086543851,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 742178,
+      "fc_mean": 98.70827483503602,
+      "fc_min": 98.70827483503602,
+      "fps_mean": 5.367232086543851,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 0,
+      "fc_mean": 98.70827483503602,
+      "fc_min": 98.70827483503602,
+      "fps_mean": 5.367232086543851,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 39062,
+      "fc_mean": 98.70827483503602,
+      "fc_min": 98.70827483503602,
+      "fps_mean": 5.367232086543851,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 78124,
+      "fc_mean": 96.43146205733397,
+      "fc_min": 90.58235356831352,
+      "fps_mean": 1.9631000389995195,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 117186,
+      "fc_mean": 99.96630617743293,
+      "fc_min": 99.90053453858972,
+      "fps_mean": 9.350125781620077,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 156248,
+      "fc_mean": 99.99967338432371,
+      "fc_min": 99.9991070623247,
+      "fps_mean": 10.000084232813288,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 195310,
+      "fc_mean": 99.99999741811523,
+      "fc_min": 99.99999318620726,
+      "fps_mean": 9.996014151978496,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 234372,
+      "fc_mean": 99.8153888230556,
+      "fc_min": 99.50195308080475,
+      "fps_mean": 9.992816346558863,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 273434,
+      "fc_mean": 99.99765507374397,
+      "fc_min": 99.99381155903552,
+      "fps_mean": 9.987059555456737,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 312496,
+      "fc_mean": 99.99997571517518,
+      "fc_min": 99.99993464013112,
+      "fps_mean": 10.019321064945718,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 351558,
+      "fc_mean": 99.90743578751926,
+      "fc_min": 99.75571591520759,
+      "fps_mean": 10.031124739510554,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 390620,
+      "fc_mean": 99.99916901734998,
+      "fc_min": 99.99780697279543,
+      "fps_mean": 9.989223720189825,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 429682,
+      "fc_mean": 99.99999173276633,
+      "fc_min": 99.99998031239602,
+      "fps_mean": 9.982578005655853,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 468744,
+      "fc_mean": 99.99999992956302,
+      "fc_min": 99.99999979206731,
+      "fps_mean": 9.999811260312615,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 507806,
+      "fc_mean": 99.96187174419043,
+      "fc_min": 99.80078124983692,
+      "fps_mean": 9.975040211606633,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 546868,
+      "fc_mean": 99.99259636200729,
+      "fc_min": 99.97952635488139,
+      "fps_mean": 10.022162033546303,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 585930,
+      "fc_mean": 99.99993193577146,
+      "fc_min": 99.99981620063068,
+      "fps_mean": 9.996729083890633,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 624992,
+      "fc_mean": 99.876580721241,
+      "fc_min": 99.67428701925536,
+      "fps_mean": 10.04378759669862,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 664054,
+      "fc_mean": 99.41944205259438,
+      "fc_min": 98.46786287000019,
+      "fps_mean": 9.998171688219369,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 703116,
+      "fc_mean": 99.99451842273108,
+      "fc_min": 99.98381817286467,
+      "fps_mean": 9.99115837088944,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 742178,
+      "fc_mean": 99.99994495418068,
+      "fc_min": 99.9998547298439,
+      "fps_mean": 9.999570924342498,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 0,
+      "fc_mean": 98.93422821301621,
+      "fc_min": 97.21093681922915,
+      "fps_mean": 9.977623664922746,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 39062,
+      "fc_mean": 98.7107467293735,
+      "fc_min": 96.65260004146586,
+      "fps_mean": 6.965492819903299,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 78124,
+      "fc_mean": 99.55605988311171,
+      "fc_min": 99.55605988311171,
+      "fps_mean": 6.495749140127235,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 117186,
+      "fc_mean": 99.55605988311171,
+      "fc_min": 99.55605988311171,
+      "fps_mean": 6.495749140127235,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 156248,
+      "fc_mean": 99.55605988311171,
+      "fc_min": 99.55605988311171,
+      "fps_mean": 6.495749140127235,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 195310,
+      "fc_mean": 99.55605988311171,
+      "fc_min": 99.55605988311171,
+      "fps_mean": 6.495749140127235,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 234372,
+      "fc_mean": 99.55605988311171,
+      "fc_min": 99.55605988311171,
+      "fps_mean": 6.495749140127235,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 273434,
+      "fc_mean": 99.55605988311171,
+      "fc_min": 99.55605988311171,
+      "fps_mean": 6.495749140127235,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 312496,
+      "fc_mean": 99.55605988311171,
+      "fc_min": 99.55605988311171,
+      "fps_mean": 6.495749140127235,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 351558,
+      "fc_mean": 99.55605988311171,
+      "fc_min": 99.55605988311171,
+      "fps_mean": 6.495749140127235,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 390620,
+      "fc_mean": 99.55605988311171,
+      "fc_min": 99.55605988311171,
+      "fps_mean": 6.495749140127235,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 429682,
+      "fc_mean": 94.93930996585935,
+      "fc_min": 86.69845902571598,
+      "fps_mean": 3.3035731140971625,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 468744,
+      "fc_mean": 95.76949600679333,
+      "fc_min": 89.1764396001338,
+      "fps_mean": 3.437414356922258,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 507806,
+      "fc_mean": 98.46043775025355,
+      "fc_min": 98.46043775025355,
+      "fps_mean": 5.166211761813145,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 546868,
+      "fc_mean": 98.46043775025355,
+      "fc_min": 98.46043775025355,
+      "fps_mean": 5.166211761813145,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 585930,
+      "fc_mean": 98.46043775025355,
+      "fc_min": 98.46043775025355,
+      "fps_mean": 5.166211761813145,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 624992,
+      "fc_mean": 98.46043775025355,
+      "fc_min": 98.46043775025355,
+      "fps_mean": 5.166211761813145,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 664054,
+      "fc_mean": 98.46043775025355,
+      "fc_min": 98.46043775025355,
+      "fps_mean": 5.166211761813145,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 703116,
+      "fc_mean": 98.46043775025355,
+      "fc_min": 98.46043775025355,
+      "fps_mean": 5.166211761813145,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 742178,
+      "fc_mean": 98.46043775025355,
+      "fc_min": 98.46043775025355,
+      "fps_mean": 5.166211761813145,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 0,
+      "fc_mean": 98.46043775025355,
+      "fc_min": 98.46043775025355,
+      "fps_mean": 5.166211761813145,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 39062,
+      "fc_mean": 98.46043775025355,
+      "fc_min": 98.46043775025355,
+      "fps_mean": 5.166211761813145,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 78124,
+      "fc_mean": 98.26591227505747,
+      "fc_min": 96.06344752455817,
+      "fps_mean": 2.820896648267958,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 117186,
+      "fc_mean": 99.97434706119736,
+      "fc_min": 99.93229991905412,
+      "fps_mean": 8.862456501151737,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 156248,
+      "fc_mean": 99.99973117335472,
+      "fc_min": 99.99928497848825,
+      "fps_mean": 10.003065219952854,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 195310,
+      "fc_mean": 99.99999760186282,
+      "fc_min": 99.99999358099147,
+      "fps_mean": 9.978519468740767,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 234372,
+      "fc_mean": 99.99999997816442,
+      "fc_min": 99.99999994237422,
+      "fps_mean": 9.963424753263132,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 273434,
+      "fc_mean": 99.99999999978651,
+      "fc_min": 99.99999999939139,
+      "fps_mean": 10.0305142644579,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 312496,
+      "fc_mean": 99.0941435228974,
+      "fc_min": 97.60937499999454,
+      "fps_mean": 10.00068509976762,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 351558,
+      "fc_mean": 99.99043270172436,
+      "fc_min": 99.97475116310542,
+      "fps_mean": 10.016049042898805,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 390620,
+      "fc_mean": 99.99990245900649,
+      "fc_min": 99.99973333175863,
+      "fps_mean": 9.99933650037339,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 429682,
+      "fc_mean": 99.99999909287303,
+      "fc_min": 99.99999760602208,
+      "fps_mean": 10.027288880995066,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 468744,
+      "fc_mean": 99.96796842483732,
+      "fc_min": 99.90039061914374,
+      "fps_mean": 9.969254050254099,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 507806,
+      "fc_mean": 99.9987565004919,
+      "fc_min": 99.99671830904043,
+      "fps_mean": 9.975611507417268,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 546868,
+      "fc_mean": 99.99998716480384,
+      "fc_min": 99.99996534007643,
+      "fps_mean": 10.009034211117477,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 585930,
+      "fc_mean": 99.91295272068075,
+      "fc_min": 99.70117182293035,
+      "fps_mean": 10.010385285739046,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 624992,
+      "fc_mean": 99.99437645466593,
+      "fc_min": 99.98396894115147,
+      "fps_mean": 9.992335491929092,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 664054,
+      "fc_mean": 99.99995364699257,
+      "fc_min": 99.99987767084389,
+      "fps_mean": 9.995589330672948,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 703116,
+      "fc_mean": 99.99999958387217,
+      "fc_min": 99.99999890180662,
+      "fps_mean": 9.982619530355102,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 742178,
+      "fc_mean": 99.9999999957048,
+      "fc_min": 99.99999998840131,
+      "fps_mean": 9.988828727091581,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 0,
+      "fc_mean": 99.99999999996085,
+      "fc_min": 99.99999999989588,
+      "fps_mean": 10.003351476328229,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 39062,
+      "fc_mean": 95.85400888276784,
+      "fc_min": 89.26240820311942,
+      "fps_mean": 7.058849403873873,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 78124,
+      "fc_mean": 98.70176616409064,
+      "fc_min": 98.70176616409064,
+      "fps_mean": 6.6407883854929235,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 117186,
+      "fc_mean": 98.70176616409064,
+      "fc_min": 98.70176616409064,
+      "fps_mean": 6.6407883854929235,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 156248,
+      "fc_mean": 98.70176616409064,
+      "fc_min": 98.70176616409064,
+      "fps_mean": 6.6407883854929235,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 195310,
+      "fc_mean": 98.70176616409064,
+      "fc_min": 98.70176616409064,
+      "fps_mean": 6.6407883854929235,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 234372,
+      "fc_mean": 98.70176616409064,
+      "fc_min": 98.70176616409064,
+      "fps_mean": 6.6407883854929235,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 273434,
+      "fc_mean": 98.70176616409064,
+      "fc_min": 98.70176616409064,
+      "fps_mean": 6.6407883854929235,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 312496,
+      "fc_mean": 98.70176616409064,
+      "fc_min": 98.70176616409064,
+      "fps_mean": 6.6407883854929235,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 351558,
+      "fc_mean": 98.70176616409064,
+      "fc_min": 98.70176616409064,
+      "fps_mean": 6.6407883854929235,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 390620,
+      "fc_mean": 98.70176616409064,
+      "fc_min": 98.70176616409064,
+      "fps_mean": 6.6407883854929235,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 429682,
+      "fc_mean": 94.0973318295002,
+      "fc_min": 85.12791745802217,
+      "fps_mean": 2.7606727656395815,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 468744,
+      "fc_mean": 96.12980195238256,
+      "fc_min": 89.70488916344867,
+      "fps_mean": 3.8164274419367725,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 507806,
+      "fc_mean": 98.75526454299269,
+      "fc_min": 98.75526454299269,
+      "fps_mean": 5.529389421250119,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 546868,
+      "fc_mean": 98.75526454299269,
+      "fc_min": 98.75526454299269,
+      "fps_mean": 5.529389421250119,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 585930,
+      "fc_mean": 98.75526454299269,
+      "fc_min": 98.75526454299269,
+      "fps_mean": 5.529389421250119,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 624992,
+      "fc_mean": 98.75526454299269,
+      "fc_min": 98.75526454299269,
+      "fps_mean": 5.529389421250119,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 664054,
+      "fc_mean": 98.75526454299269,
+      "fc_min": 98.75526454299269,
+      "fps_mean": 5.529389421250119,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 703116,
+      "fc_mean": 98.75526454299269,
+      "fc_min": 98.75526454299269,
+      "fps_mean": 5.529389421250119,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 742178,
+      "fc_mean": 98.75526454299269,
+      "fc_min": 98.75526454299269,
+      "fps_mean": 5.529389421250119,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 0,
+      "fc_mean": 98.75526454299269,
+      "fc_min": 98.75526454299269,
+      "fps_mean": 5.529389421250119,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 39062,
+      "fc_mean": 98.75526454299269,
+      "fc_min": 98.75526454299269,
+      "fps_mean": 5.529389421250119,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 78124,
+      "fc_mean": 96.96542459921751,
+      "fc_min": 92.37947486154378,
+      "fps_mean": 2.741930564464548,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 117186,
+      "fc_mean": 99.96282248178002,
+      "fc_min": 99.90188566650305,
+      "fps_mean": 9.023013586126853,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 156248,
+      "fc_mean": 99.99963649501574,
+      "fc_min": 99.99896375516718,
+      "fps_mean": 9.994069836357154,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 195310,
+      "fc_mean": 99.99999665574849,
+      "fc_min": 99.9999906972527,
+      "fps_mean": 10.024442639908171,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 234372,
+      "fc_mean": 99.99999996835479,
+      "fc_min": 99.99999991648585,
+      "fps_mean": 10.001632799467822,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 273434,
+      "fc_mean": 99.9999999997159,
+      "fc_min": 99.99999999925025,
+      "fps_mean": 10.00577644984136,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 312496,
+      "fc_mean": 99.999999999997,
+      "fc_min": 99.99999999999208,
+      "fps_mean": 9.988296132188042,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 351558,
+      "fc_mean": 99.99999999999996,
+      "fc_min": 99.99999999999993,
+      "fps_mean": 10.02557841900955,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 390620,
+      "fc_mean": 99.9114583333333,
+      "fc_min": 99.20312499999997,
+      "fps_mean": 9.988592157071055,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 429682,
+      "fc_mean": 99.95802485352688,
+      "fc_min": 99.88665109978211,
+      "fps_mean": 9.997313429283585,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 468744,
+      "fc_mean": 99.9415630251928,
+      "fc_min": 99.80058091565355,
+      "fps_mean": 9.997121286020045,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 507806,
+      "fc_mean": 99.99624720040693,
+      "fc_min": 99.9893018820781,
+      "fps_mean": 9.98318436035451,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 546868,
+      "fc_mean": 99.9999674662437,
+      "fc_min": 99.99990395909886,
+      "fps_mean": 9.978333553702841,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 585930,
+      "fc_mean": 99.99999967584087,
+      "fc_min": 99.99999913780586,
+      "fps_mean": 10.032517286562515,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 624992,
+      "fc_mean": 99.72631587295096,
+      "fc_min": 99.20312499708078,
+      "fps_mean": 9.985538013046224,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 664054,
+      "fc_mean": 99.54320028997192,
+      "fc_min": 98.25587409762814,
+      "fps_mean": 9.992184978709338,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 703116,
+      "fc_mean": 99.92009539602697,
+      "fc_min": 99.78912559693292,
+      "fps_mean": 10.028156473656393,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 742178,
+      "fc_mean": 99.59342238452606,
+      "fc_min": 98.91859030211457,
+      "fps_mean": 9.993291106198145,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 0,
+      "fc_mean": 98.34931737570038,
+      "fc_min": 96.35869498845764,
+      "fps_mean": 10.002253859313273,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 39062,
+      "fc_mean": 94.58861450244675,
+      "fc_min": 85.36038988477208,
+      "fps_mean": 7.041068652815268,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 78124,
+      "fc_mean": 98.22999071340828,
+      "fc_min": 98.22999071340828,
+      "fps_mean": 6.654079221126337,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 117186,
+      "fc_mean": 98.22999071340828,
+      "fc_min": 98.22999071340828,
+      "fps_mean": 6.654079221126337,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 156248,
+      "fc_mean": 98.22999071340828,
+      "fc_min": 98.22999071340828,
+      "fps_mean": 6.654079221126337,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 195310,
+      "fc_mean": 98.22999071340828,
+      "fc_min": 98.22999071340828,
+      "fps_mean": 6.654079221126337,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 234372,
+      "fc_mean": 98.22999071340828,
+      "fc_min": 98.22999071340828,
+      "fps_mean": 6.654079221126337,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 273434,
+      "fc_mean": 98.22999071340828,
+      "fc_min": 98.22999071340828,
+      "fps_mean": 6.654079221126337,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 312496,
+      "fc_mean": 98.22999071340828,
+      "fc_min": 98.22999071340828,
+      "fps_mean": 6.654079221126337,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 351558,
+      "fc_mean": 98.22999071340828,
+      "fc_min": 98.22999071340828,
+      "fps_mean": 6.654079221126337,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 390620,
+      "fc_mean": 98.22999071340828,
+      "fc_min": 98.22999071340828,
+      "fps_mean": 6.654079221126337,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 429682,
+      "fc_mean": 94.89685460448219,
+      "fc_min": 86.94382454043748,
+      "fps_mean": 2.3696394879489917,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 468744,
+      "fc_mean": 96.20751290675554,
+      "fc_min": 91.86405429028301,
+      "fps_mean": 4.042407593758431,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 507806,
+      "fc_mean": 96.08663196834256,
+      "fc_min": 96.08663196834256,
+      "fps_mean": 5.662920198037139,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 546868,
+      "fc_mean": 96.08663196834256,
+      "fc_min": 96.08663196834256,
+      "fps_mean": 5.662920198037139,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 585930,
+      "fc_mean": 96.08663196834256,
+      "fc_min": 96.08663196834256,
+      "fps_mean": 5.662920198037139,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 624992,
+      "fc_mean": 96.08663196834256,
+      "fc_min": 96.08663196834256,
+      "fps_mean": 5.662920198037139,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 664054,
+      "fc_mean": 96.08663196834256,
+      "fc_min": 96.08663196834256,
+      "fps_mean": 5.662920198037139,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 703116,
+      "fc_mean": 96.08663196834256,
+      "fc_min": 96.08663196834256,
+      "fps_mean": 5.662920198037139,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 742178,
+      "fc_mean": 96.08663196834256,
+      "fc_min": 96.08663196834256,
+      "fps_mean": 5.662920198037139,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 0,
+      "fc_mean": 96.08663196834256,
+      "fc_min": 96.08663196834256,
+      "fps_mean": 5.662920198037139,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 39062,
+      "fc_mean": 96.08663196834256,
+      "fc_min": 96.08663196834256,
+      "fps_mean": 5.662920198037139,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 78124,
+      "fc_mean": 91.00408894950192,
+      "fc_min": 77.60510129505838,
+      "fps_mean": 3.390198237304813,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 117186,
+      "fc_mean": 99.6518821460261,
+      "fc_min": 99.33823766002668,
+      "fps_mean": 8.68046173630414,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 156248,
+      "fc_mean": 99.98180383905816,
+      "fc_min": 99.95086342742687,
+      "fps_mean": 9.97478373957261,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 195310,
+      "fc_mean": 99.99983285182363,
+      "fc_min": 99.99955888309103,
+      "fps_mean": 10.002665251207919,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 234372,
+      "fc_mean": 99.03905128531058,
+      "fc_min": 97.01171767091923,
+      "fps_mean": 10.017887672356641,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 273434,
+      "fc_mean": 99.55116113288886,
+      "fc_min": 98.76755684410003,
+      "fps_mean": 10.001172049539743,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 312496,
+      "fc_mean": 99.9883087419599,
+      "fc_min": 99.96548695615905,
+      "fps_mean": 9.995959385825051,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 351558,
+      "fc_mean": 99.8288449341244,
+      "fc_min": 99.50185379862432,
+      "fps_mean": 9.989850177901818,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 390620,
+      "fc_mean": 99.99527446296075,
+      "fc_min": 99.98605003272972,
+      "fps_mean": 9.993127677276666,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 429682,
+      "fc_mean": 99.96674957629115,
+      "fc_min": 99.70116397105751,
+      "fps_mean": 10.023423144233448,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 468744,
+      "fc_mean": 99.98401865710584,
+      "fc_min": 99.95749303814763,
+      "fps_mean": 10.011916326729914,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 507806,
+      "fc_mean": 99.28911492789878,
+      "fc_min": 97.31047174763304,
+      "fps_mean": 9.981392478721366,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 546868,
+      "fc_mean": 99.95418140474968,
+      "fc_min": 99.87735899541141,
+      "fps_mean": 10.021795767653284,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 585930,
+      "fc_mean": 99.99958866978199,
+      "fc_min": 99.99889900703239,
+      "fps_mean": 9.99358601255284,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 624992,
+      "fc_mean": 99.9999962669772,
+      "fc_min": 99.99999011598511,
+      "fps_mean": 10.005159090437887,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 664054,
+      "fc_mean": 99.9999999671408,
+      "fc_min": 99.99999991126761,
+      "fps_mean": 10.025555123535064,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 703116,
+      "fc_mean": 99.94089215686698,
+      "fc_min": 99.84400985027764,
+      "fps_mean": 10.032408657933077,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 742178,
+      "fc_mean": 99.9994693673634,
+      "fc_min": 99.99859961960979,
+      "fps_mean": 9.981162518156301,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 0,
+      "fc_mean": 99.99999432425707,
+      "fc_min": 99.99998520973551,
+      "fps_mean": 10.034210140690028,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 39062,
+      "fc_mean": 95.22523797922037,
+      "fc_min": 87.52798406983666,
+      "fps_mean": 7.056850663355132,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 78124,
+      "fc_mean": 98.49206475820374,
+      "fc_min": 98.49206475820374,
+      "fps_mean": 6.634580657353457,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 117186,
+      "fc_mean": 98.49206475820374,
+      "fc_min": 98.49206475820374,
+      "fps_mean": 6.634580657353457,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 156248,
+      "fc_mean": 98.49206475820374,
+      "fc_min": 98.49206475820374,
+      "fps_mean": 6.634580657353457,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 195310,
+      "fc_mean": 98.49206475820374,
+      "fc_min": 98.49206475820374,
+      "fps_mean": 6.634580657353457,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 234372,
+      "fc_mean": 98.49206475820374,
+      "fc_min": 98.49206475820374,
+      "fps_mean": 6.634580657353457,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 273434,
+      "fc_mean": 98.49206475820374,
+      "fc_min": 98.49206475820374,
+      "fps_mean": 6.634580657353457,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 312496,
+      "fc_mean": 98.49206475820374,
+      "fc_min": 98.49206475820374,
+      "fps_mean": 6.634580657353457,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 351558,
+      "fc_mean": 98.49206475820374,
+      "fc_min": 98.49206475820374,
+      "fps_mean": 6.634580657353457,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 390620,
+      "fc_mean": 98.49206475820374,
+      "fc_min": 98.49206475820374,
+      "fps_mean": 6.634580657353457,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 429682,
+      "fc_mean": 92.57811463327485,
+      "fc_min": 82.3519230378022,
+      "fps_mean": 2.9961310001437313,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 468744,
+      "fc_mean": 93.80917163699382,
+      "fc_min": 83.86748833725885,
+      "fps_mean": 3.857246111435964,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 507806,
+      "fc_mean": 98.04949071496112,
+      "fc_min": 98.04949071496112,
+      "fps_mean": 5.690313911981734,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 546868,
+      "fc_mean": 98.04949071496112,
+      "fc_min": 98.04949071496112,
+      "fps_mean": 5.690313911981734,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 585930,
+      "fc_mean": 98.04949071496112,
+      "fc_min": 98.04949071496112,
+      "fps_mean": 5.690313911981734,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 624992,
+      "fc_mean": 98.04949071496112,
+      "fc_min": 98.04949071496112,
+      "fps_mean": 5.690313911981734,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 664054,
+      "fc_mean": 98.04949071496112,
+      "fc_min": 98.04949071496112,
+      "fps_mean": 5.690313911981734,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 703116,
+      "fc_mean": 98.04949071496112,
+      "fc_min": 98.04949071496112,
+      "fps_mean": 5.690313911981734,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 742178,
+      "fc_mean": 98.04949071496112,
+      "fc_min": 98.04949071496112,
+      "fps_mean": 5.690313911981734,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 0,
+      "fc_mean": 98.04949071496112,
+      "fc_min": 98.04949071496112,
+      "fps_mean": 5.690313911981734,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 39062,
+      "fc_mean": 98.04949071496112,
+      "fc_min": 98.04949071496112,
+      "fps_mean": 5.690313911981734,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 78124,
+      "fc_mean": 92.55120857068631,
+      "fc_min": 79.6356789165594,
+      "fps_mean": 2.007176146979948,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 117186,
+      "fc_mean": 99.70984314509184,
+      "fc_min": 99.3069116491569,
+      "fps_mean": 9.361037522000599,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 156248,
+      "fc_mean": 99.99476099410222,
+      "fc_min": 99.98597693921344,
+      "fps_mean": 9.988412024602583,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 195310,
+      "fc_mean": 99.26569966704879,
+      "fc_min": 96.45265013577901,
+      "fps_mean": 9.992665431308298,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 234372,
+      "fc_mean": 99.88258168424322,
+      "fc_min": 99.69012402273204,
+      "fps_mean": 10.025738772820988,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 273434,
+      "fc_mean": 99.76904840114717,
+      "fc_min": 99.3905009458289,
+      "fps_mean": 10.001838913102402,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 312496,
+      "fc_mean": 99.99756078044447,
+      "fc_min": 99.99356271175691,
+      "fps_mean": 10.026203226565377,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 351558,
+      "fc_mean": 99.31593389782134,
+      "fc_min": 98.5506155620998,
+      "fps_mean": 9.986010358054886,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 390620,
+      "fc_mean": 99.97366082063735,
+      "fc_min": 99.9222457284786,
+      "fps_mean": 10.024081029746448,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 429682,
+      "fc_mean": 99.83708200213195,
+      "fc_min": 99.38343185468464,
+      "fps_mean": 9.999161859808574,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 468744,
+      "fc_mean": 99.96676802678952,
+      "fc_min": 99.91229826361615,
+      "fps_mean": 10.028082140831195,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 507806,
+      "fc_mean": 99.99968622662084,
+      "fc_min": 99.99907372890465,
+      "fps_mean": 9.991603350100984,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 546868,
+      "fc_mean": 99.9999973217333,
+      "fc_min": 99.99999293184794,
+      "fps_mean": 9.958676327907494,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 585930,
+      "fc_mean": 99.97786455714646,
+      "fc_min": 99.80078124528853,
+      "fps_mean": 10.00642153761845,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 624992,
+      "fc_mean": 99.41977651922053,
+      "fc_min": 98.49328599740447,
+      "fps_mean": 9.983756214951919,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 664054,
+      "fc_mean": 99.98688983648748,
+      "fc_min": 99.96540126892127,
+      "fps_mean": 10.016889402482958,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 703116,
+      "fc_mean": 99.99988230528704,
+      "fc_min": 99.99968939458924,
+      "fps_mean": 9.993197287515423,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 742178,
+      "fc_mean": 99.42201613832694,
+      "fc_min": 97.90820247915516,
+      "fps_mean": 10.021068012176627,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 0,
+      "fc_mean": 99.9641381708625,
+      "fc_min": 99.90461518702153,
+      "fps_mean": 9.990726617416302,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 39062,
+      "fc_mean": 99.99967658859623,
+      "fc_min": 99.99914369579196,
+      "fps_mean": 10.02496052300958,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 78124,
+      "fc_mean": 99.99999730334794,
+      "fc_min": 99.99999231264523,
+      "fps_mean": 10.039213279989102,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 117186,
+      "fc_mean": 99.99999997384988,
+      "fc_min": 99.99999993098783,
+      "fps_mean": 9.969320175245137,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 156248,
+      "fc_mean": 99.99999999972381,
+      "fc_min": 99.99999999927111,
+      "fps_mean": 10.037788844572578,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 195310,
+      "fc_mean": 99.91145833333087,
+      "fc_min": 99.20312499999959,
+      "fps_mean": 10.030226722054078,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 234372,
+      "fc_mean": 99.95719006564407,
+      "fc_min": 99.88665109978206,
+      "fps_mean": 9.996347599865159,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 273434,
+      "fc_mean": 99.86601758909119,
+      "fc_min": 99.53104966565355,
+      "fps_mean": 10.030779533441851,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 312496,
+      "fc_mean": 99.90449503879533,
+      "fc_min": 99.73433262542436,
+      "fps_mean": 10.003458104473934,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 351558,
+      "fc_mean": 99.60805028952394,
+      "fc_min": 98.70452572025414,
+      "fps_mean": 9.978737488628807,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 390620,
+      "fc_mean": 99.90362558531295,
+      "fc_min": 99.7319140555295,
+      "fps_mean": 10.008970723024845,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 429682,
+      "fc_mean": 99.99207865645603,
+      "fc_min": 99.97834376423714,
+      "fps_mean": 10.017423052663448,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 468744,
+      "fc_mean": 99.99992633185171,
+      "fc_min": 99.99980558408372,
+      "fps_mean": 10.003886807890309,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 507806,
+      "fc_mean": 99.99999933865419,
+      "fc_min": 99.9999982546575,
+      "fps_mean": 10.019525629593133,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 546868,
+      "fc_mean": 99.87825520236463,
+      "fc_min": 98.9042968738366,
+      "fps_mean": 9.982551994475735,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 585930,
+      "fc_mean": 99.71610229855821,
+      "fc_min": 99.25077210389706,
+      "fps_mean": 10.030257563816152,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 624992,
+      "fc_mean": 99.1234632246634,
+      "fc_min": 98.19117398792591,
+      "fps_mean": 9.95509555997919,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 664054,
+      "fc_mean": 99.67186243543068,
+      "fc_min": 99.03132527628892,
+      "fps_mean": 10.006076565978692,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 703116,
+      "fc_mean": 99.166830687987,
+      "fc_min": 97.80120202605781,
+      "fps_mean": 10.021950890411578,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 742178,
+      "fc_mean": 99.57667423342559,
+      "fc_min": 98.70460949732856,
+      "fps_mean": 9.965665642862406,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 0,
+      "fc_mean": 99.8701806469868,
+      "fc_min": 99.65739673045054,
+      "fps_mean": 10.025920419361663,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 39062,
+      "fc_mean": 99.9986288992753,
+      "fc_min": 99.9963815596037,
+      "fps_mean": 9.997559710366007,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 78124,
+      "fc_mean": 99.99998572232757,
+      "fc_min": 99.99996178346191,
+      "fps_mean": 10.016244860768884,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 117186,
+      "fc_mean": 99.99999986999858,
+      "fc_min": 99.99999965691622,
+      "fps_mean": 9.969784294299444,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 156248,
+      "fc_mean": 99.8831299575422,
+      "fc_min": 99.58733637029796,
+      "fps_mean": 9.964920219876234,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 195310,
+      "fc_mean": 99.95024939788702,
+      "fc_min": 99.86285985472549,
+      "fps_mean": 10.03298882588819,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 234372,
+      "fc_mean": 99.99960346610699,
+      "fc_min": 99.99895351652061,
+      "fps_mean": 9.986117130083217,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 273434,
+      "fc_mean": 99.99999587583862,
+      "fc_min": 99.99998894745488,
+      "fps_mean": 10.031050448372605,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 312496,
+      "fc_mean": 99.99999996370666,
+      "fc_min": 99.9999999007773,
+      "fps_mean": 10.023881079446289,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 351558,
+      "fc_mean": 99.99999999966357,
+      "fc_min": 99.99999999910925,
+      "fps_mean": 10.037128555288666,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 390620,
+      "fc_mean": 99.86718749999697,
+      "fc_min": 98.80468749999939,
+      "fps_mean": 9.95056065122014,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 429682,
+      "fc_mean": 99.9112380408087,
+      "fc_min": 99.8249503612109,
+      "fps_mean": 10.015059938629166,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 468744,
+      "fc_mean": 99.99886299699364,
+      "fc_min": 99.99698952959741,
+      "fps_mean": 9.954317107546565,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 507806,
+      "fc_mean": 99.91529068331431,
+      "fc_min": 99.7764455900896,
+      "fps_mean": 9.999489319232053,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 546868,
+      "fc_mean": 99.9992395336105,
+      "fc_min": 99.99799307063721,
+      "fps_mean": 10.012265474012038,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 585930,
+      "fc_mean": 99.9999936798276,
+      "fc_min": 99.99998198306412,
+      "fps_mean": 9.99348023191875,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 624992,
+      "fc_mean": 99.5915974613445,
+      "fc_min": 98.72998043128722,
+      "fps_mean": 10.037668143950183,
+      "pass": false
+    },
+    {
+      "phase_lock": false,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 664054,
+      "fc_mean": 99.98134750792484,
+      "fc_min": 99.95077463704854,
+      "fps_mean": 10.011352961673078,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 703116,
+      "fc_mean": 99.96168361345126,
+      "fc_min": 99.80073583464298,
+      "fps_mean": 9.95122144196308,
+      "pass": true
+    },
+    {
+      "phase_lock": false,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 742178,
+      "fc_mean": 99.99241651077487,
+      "fc_min": 99.9795216875769,
+      "fps_mean": 10.007534658928904,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 0,
+      "fc_mean": 99.99932532968113,
+      "fc_min": 99.99932532968113,
+      "fps_mean": 9.948424193131155,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 39062,
+      "fc_mean": 99.99932532968113,
+      "fc_min": 99.99932532968113,
+      "fps_mean": 9.948424193131155,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 78124,
+      "fc_mean": 97.18684781869176,
+      "fc_min": 87.34317653022894,
+      "fps_mean": 9.671381163362927,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 117186,
+      "fc_mean": 93.04786383104093,
+      "fc_min": 81.99484798982228,
+      "fps_mean": 2.755810203428042,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 156248,
+      "fc_mean": 97.82307820948316,
+      "fc_min": 97.82307820948316,
+      "fps_mean": 1.9114411810847622,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 195310,
+      "fc_mean": 97.82307820948316,
+      "fc_min": 97.82307820948316,
+      "fps_mean": 1.9114411810847622,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 234372,
+      "fc_mean": 97.82307820948316,
+      "fc_min": 97.82307820948316,
+      "fps_mean": 1.9114411810847622,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 273434,
+      "fc_mean": 97.82307820948316,
+      "fc_min": 97.82307820948316,
+      "fps_mean": 1.9114411810847622,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 312496,
+      "fc_mean": 97.82307820948316,
+      "fc_min": 97.82307820948316,
+      "fps_mean": 1.9114411810847622,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 351558,
+      "fc_mean": 97.82307820948316,
+      "fc_min": 97.82307820948316,
+      "fps_mean": 1.9114411810847622,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 390620,
+      "fc_mean": 97.82307820948316,
+      "fc_min": 97.82307820948316,
+      "fps_mean": 1.9114411810847622,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 429682,
+      "fc_mean": 97.82307820948316,
+      "fc_min": 97.82307820948316,
+      "fps_mean": 1.9114411810847622,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 468744,
+      "fc_mean": 97.82307820948316,
+      "fc_min": 97.82307820948316,
+      "fps_mean": 1.9114411810847622,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 507806,
+      "fc_mean": 94.69767968554704,
+      "fc_min": 87.9543039780607,
+      "fps_mean": 1.3328512601505933,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 546868,
+      "fc_mean": 90.48714997770469,
+      "fc_min": 77.37424943186149,
+      "fps_mean": 0.8050303035845199,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 585930,
+      "fc_mean": 91.4667091325745,
+      "fc_min": 91.4667091325745,
+      "fps_mean": 0.7126817793002072,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 624992,
+      "fc_mean": 91.4667091325745,
+      "fc_min": 91.4667091325745,
+      "fps_mean": 0.7126817793002072,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 664054,
+      "fc_mean": 91.4667091325745,
+      "fc_min": 91.4667091325745,
+      "fps_mean": 0.7126817793002072,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 703116,
+      "fc_mean": 91.4667091325745,
+      "fc_min": 91.4667091325745,
+      "fps_mean": 0.7126817793002072,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 742178,
+      "fc_mean": 91.4667091325745,
+      "fc_min": 91.4667091325745,
+      "fps_mean": 0.7126817793002072,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 0,
+      "fc_mean": 91.4667091325745,
+      "fc_min": 91.4667091325745,
+      "fps_mean": 0.7126817793002072,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 39062,
+      "fc_mean": 91.4667091325745,
+      "fc_min": 91.4667091325745,
+      "fps_mean": 0.7126817793002072,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 78124,
+      "fc_mean": 91.4667091325745,
+      "fc_min": 91.4667091325745,
+      "fps_mean": 0.7126817793002072,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 117186,
+      "fc_mean": 91.4667091325745,
+      "fc_min": 91.4667091325745,
+      "fps_mean": 0.7126817793002072,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 156248,
+      "fc_mean": 92.47968451263625,
+      "fc_min": 86.53673883979232,
+      "fps_mean": 0.6540359067275611,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 195310,
+      "fc_mean": 99.22415661180816,
+      "fc_min": 97.95248955349658,
+      "fps_mean": 8.664242113939707,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 234372,
+      "fc_mean": 98.49155776016045,
+      "fc_min": 96.63634592647438,
+      "fps_mean": 9.999872901978359,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 273434,
+      "fc_mean": 99.94188090390779,
+      "fc_min": 99.84661922985839,
+      "fps_mean": 9.999311607680632,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 312496,
+      "fc_mean": 99.99938616906555,
+      "fc_min": 99.99838005289493,
+      "fps_mean": 9.980402408393054,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 351558,
+      "fc_mean": 99.99999374184046,
+      "fc_min": 99.99998289075862,
+      "fps_mean": 10.026242806779601,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 390620,
+      "fc_mean": 99.99999993661176,
+      "fc_min": 99.99999981929896,
+      "fps_mean": 9.964961843125344,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 429682,
+      "fc_mean": 99.99999999939926,
+      "fc_min": 99.99999999837779,
+      "fps_mean": 10.024049289870378,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 468744,
+      "fc_mean": 99.44092742338792,
+      "fc_min": 98.40624999998543,
+      "fps_mean": 9.98680576283565,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 507806,
+      "fc_mean": 99.99462074356556,
+      "fc_min": 99.98569232575964,
+      "fps_mean": 10.014258942464462,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 546868,
+      "fc_mean": 99.99995132949792,
+      "fc_min": 99.99987155479707,
+      "fps_mean": 10.013175620889925,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 585930,
+      "fc_mean": 99.99999956306718,
+      "fc_min": 99.99999884690064,
+      "fps_mean": 9.978885803219269,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 624992,
+      "fc_mean": 99.776426130704,
+      "fc_min": 99.10351562352754,
+      "fps_mean": 9.99918585695305,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 664054,
+      "fc_mean": 99.97607052088065,
+      "fc_min": 99.93343506125326,
+      "fps_mean": 10.015455348411866,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 703116,
+      "fc_mean": 99.99977356564492,
+      "fc_min": 99.9994024223,
+      "fps_mean": 9.987074645217998,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "phase_ns": 742178,
+      "fc_mean": 99.99999769144524,
+      "fc_min": 99.9999936886204,
+      "fps_mean": 9.967166531027889,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 0,
+      "fc_mean": 99.999999977854,
+      "fc_min": 99.99999994334044,
+      "fps_mean": 10.04937765921642,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 39062,
+      "fc_mean": 97.19756565429856,
+      "fc_min": 92.74205004525216,
+      "fps_mean": 7.061201015636167,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 78124,
+      "fc_mean": 99.12247397844573,
+      "fc_min": 99.12247397844573,
+      "fps_mean": 6.642008844489174,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 117186,
+      "fc_mean": 99.12247397844573,
+      "fc_min": 99.12247397844573,
+      "fps_mean": 6.642008844489174,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 156248,
+      "fc_mean": 99.12247397844573,
+      "fc_min": 99.12247397844573,
+      "fps_mean": 6.642008844489174,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 195310,
+      "fc_mean": 99.12247397844573,
+      "fc_min": 99.12247397844573,
+      "fps_mean": 6.642008844489174,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 234372,
+      "fc_mean": 99.12247397844573,
+      "fc_min": 99.12247397844573,
+      "fps_mean": 6.642008844489174,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 273434,
+      "fc_mean": 99.12247397844573,
+      "fc_min": 99.12247397844573,
+      "fps_mean": 6.642008844489174,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 312496,
+      "fc_mean": 99.12247397844573,
+      "fc_min": 99.12247397844573,
+      "fps_mean": 6.642008844489174,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 351558,
+      "fc_mean": 99.12247397844573,
+      "fc_min": 99.12247397844573,
+      "fps_mean": 6.642008844489174,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 390620,
+      "fc_mean": 99.12247397844573,
+      "fc_min": 99.12247397844573,
+      "fps_mean": 6.642008844489174,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 429682,
+      "fc_mean": 95.0961793780019,
+      "fc_min": 87.67730026951298,
+      "fps_mean": 3.3994173513728985,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 468744,
+      "fc_mean": 98.23016746601517,
+      "fc_min": 95.38804141845975,
+      "fps_mean": 2.0814145327977105,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 507806,
+      "fc_mean": 99.44238887139412,
+      "fc_min": 99.44238887139412,
+      "fps_mean": 3.585097800772383,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 546868,
+      "fc_mean": 99.44238887139412,
+      "fc_min": 99.44238887139412,
+      "fps_mean": 3.585097800772383,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 585930,
+      "fc_mean": 99.44238887139412,
+      "fc_min": 99.44238887139412,
+      "fps_mean": 3.585097800772383,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 624992,
+      "fc_mean": 99.44238887139412,
+      "fc_min": 99.44238887139412,
+      "fps_mean": 3.585097800772383,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 664054,
+      "fc_mean": 99.44238887139412,
+      "fc_min": 99.44238887139412,
+      "fps_mean": 3.585097800772383,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 703116,
+      "fc_mean": 99.44238887139412,
+      "fc_min": 99.44238887139412,
+      "fps_mean": 3.585097800772383,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 742178,
+      "fc_mean": 99.44238887139412,
+      "fc_min": 99.44238887139412,
+      "fps_mean": 3.585097800772383,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 0,
+      "fc_mean": 99.44238887139412,
+      "fc_min": 99.44238887139412,
+      "fps_mean": 3.585097800772383,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 39062,
+      "fc_mean": 99.44238887139412,
+      "fc_min": 99.44238887139412,
+      "fps_mean": 3.585097800772383,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 78124,
+      "fc_mean": 94.34776840401727,
+      "fc_min": 84.61156097189489,
+      "fps_mean": 1.9599649359846323,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 117186,
+      "fc_mean": 99.89971969455028,
+      "fc_min": 99.73535255167235,
+      "fps_mean": 9.055338393047615,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 156248,
+      "fc_mean": 99.5964642260316,
+      "fc_min": 98.82707082870736,
+      "fps_mean": 9.986814391430089,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 195310,
+      "fc_mean": 99.75856222333167,
+      "fc_min": 99.29137837212333,
+      "fps_mean": 9.960825090064251,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 234372,
+      "fc_mean": 99.96553209541928,
+      "fc_min": 99.90903654555518,
+      "fps_mean": 9.962592298224331,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 273434,
+      "fc_mean": 99.95000433565848,
+      "fc_min": 99.80066509366539,
+      "fps_mean": 10.043667260772278,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 312496,
+      "fc_mean": 99.61903288249545,
+      "fc_min": 98.77681676057448,
+      "fps_mean": 9.981133739493727,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 351558,
+      "fc_mean": 99.97074762071325,
+      "fc_min": 99.92280071843587,
+      "fps_mean": 10.029849983120698,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 390620,
+      "fc_mean": 99.99970688983004,
+      "fc_min": 99.99918465168372,
+      "fps_mean": 9.93749276303838,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 429682,
+      "fc_mean": 99.96231302993168,
+      "fc_min": 99.88281050545687,
+      "fps_mean": 10.015300592491977,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 468744,
+      "fc_mean": 99.96507573922217,
+      "fc_min": 99.70083461098423,
+      "fps_mean": 9.968786543468193,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 507806,
+      "fc_mean": 99.9862941706793,
+      "fc_min": 99.96382926098326,
+      "fps_mean": 10.052452561759658,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 546868,
+      "fc_mean": 99.99985524444484,
+      "fc_min": 99.99961797894284,
+      "fps_mean": 9.946581199207708,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 585930,
+      "fc_mean": 99.99999870047667,
+      "fc_min": 99.99999657045784,
+      "fps_mean": 10.048003020552462,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 624992,
+      "fc_mean": 99.35936864562571,
+      "fc_min": 98.00781249013,
+      "fps_mean": 9.991984876116211,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 664054,
+      "fc_mean": 99.92851016974515,
+      "fc_min": 99.59668911789359,
+      "fps_mean": 9.994499862750102,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 703116,
+      "fc_mean": 99.97856748582687,
+      "fc_min": 99.94263235145705,
+      "fps_mean": 10.021535571771626,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "phase_ns": 742178,
+      "fc_mean": 99.73866335984361,
+      "fc_min": 99.10341423265868,
+      "fps_mean": 9.968024871220129,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 0,
+      "fc_mean": 99.87793033555567,
+      "fc_min": 99.68769007469885,
+      "fps_mean": 10.027729874154996,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 39062,
+      "fc_mean": 98.96557370089185,
+      "fc_min": 97.35346532101472,
+      "fps_mean": 6.895391456841639,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 78124,
+      "fc_mean": 99.62355225693932,
+      "fc_min": 99.62355225693932,
+      "fps_mean": 6.4686758304490795,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 117186,
+      "fc_mean": 99.62355225693932,
+      "fc_min": 99.62355225693932,
+      "fps_mean": 6.4686758304490795,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 156248,
+      "fc_mean": 99.62355225693932,
+      "fc_min": 99.62355225693932,
+      "fps_mean": 6.4686758304490795,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 195310,
+      "fc_mean": 99.62355225693932,
+      "fc_min": 99.62355225693932,
+      "fps_mean": 6.4686758304490795,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 234372,
+      "fc_mean": 99.62355225693932,
+      "fc_min": 99.62355225693932,
+      "fps_mean": 6.4686758304490795,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 273434,
+      "fc_mean": 99.62355225693932,
+      "fc_min": 99.62355225693932,
+      "fps_mean": 6.4686758304490795,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 312496,
+      "fc_mean": 99.62355225693932,
+      "fc_min": 99.62355225693932,
+      "fps_mean": 6.4686758304490795,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 351558,
+      "fc_mean": 99.62355225693932,
+      "fc_min": 99.62355225693932,
+      "fps_mean": 6.4686758304490795,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 390620,
+      "fc_mean": 99.62355225693932,
+      "fc_min": 99.62355225693932,
+      "fps_mean": 6.4686758304490795,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 429682,
+      "fc_mean": 98.73510118458366,
+      "fc_min": 96.83348525563866,
+      "fps_mean": 3.521499407715135,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 468744,
+      "fc_mean": 95.27139786269089,
+      "fc_min": 90.8261405820167,
+      "fps_mean": 3.120170176460907,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 507806,
+      "fc_mean": 97.5459666862459,
+      "fc_min": 97.5459666862459,
+      "fps_mean": 4.934818060374231,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 546868,
+      "fc_mean": 97.5459666862459,
+      "fc_min": 97.5459666862459,
+      "fps_mean": 4.934818060374231,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 585930,
+      "fc_mean": 97.5459666862459,
+      "fc_min": 97.5459666862459,
+      "fps_mean": 4.934818060374231,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 624992,
+      "fc_mean": 97.5459666862459,
+      "fc_min": 97.5459666862459,
+      "fps_mean": 4.934818060374231,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 664054,
+      "fc_mean": 97.5459666862459,
+      "fc_min": 97.5459666862459,
+      "fps_mean": 4.934818060374231,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 703116,
+      "fc_mean": 97.5459666862459,
+      "fc_min": 97.5459666862459,
+      "fps_mean": 4.934818060374231,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 742178,
+      "fc_mean": 97.5459666862459,
+      "fc_min": 97.5459666862459,
+      "fps_mean": 4.934818060374231,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 0,
+      "fc_mean": 97.5459666862459,
+      "fc_min": 97.5459666862459,
+      "fps_mean": 4.934818060374231,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 39062,
+      "fc_mean": 97.5459666862459,
+      "fc_min": 97.5459666862459,
+      "fps_mean": 4.934818060374231,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 78124,
+      "fc_mean": 95.39309704210919,
+      "fc_min": 88.30703905581267,
+      "fps_mean": 2.2901106165062317,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 117186,
+      "fc_mean": 99.94494669061893,
+      "fc_min": 99.85471007707496,
+      "fps_mean": 9.178226718605401,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 156248,
+      "fc_mean": 99.99942671380468,
+      "fc_min": 99.99846550522716,
+      "fps_mean": 9.993902239200198,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 195310,
+      "fc_mean": 99.0697550538963,
+      "fc_min": 97.11132093398885,
+      "fps_mean": 10.002827106545237,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 234372,
+      "fc_mean": 99.1687354351063,
+      "fc_min": 97.20115698566055,
+      "fps_mean": 10.00295132191183,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 273434,
+      "fc_mean": 99.94913756058442,
+      "fc_min": 99.84985212067133,
+      "fps_mean": 10.005961955949088,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 312496,
+      "fc_mean": 99.65130668523607,
+      "fc_min": 99.20269288381981,
+      "fps_mean": 9.979354422584866,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 351558,
+      "fc_mean": 99.98566221287585,
+      "fc_min": 99.96216147567506,
+      "fps_mean": 10.006232810401896,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 390620,
+      "fc_mean": 99.99986946951442,
+      "fc_min": 99.99966030978524,
+      "fps_mean": 9.968876053504454,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 429682,
+      "fc_mean": 98.82738650687703,
+      "fc_min": 96.90538269266472,
+      "fps_mean": 9.999243265921281,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 468744,
+      "fc_mean": 99.81978854583076,
+      "fc_min": 99.40649230264808,
+      "fps_mean": 9.981591421774771,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 507806,
+      "fc_mean": 99.9926149906923,
+      "fc_min": 99.98044653196226,
+      "fps_mean": 10.040746043218409,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 546868,
+      "fc_mean": 99.99993348484941,
+      "fc_min": 99.99982446139549,
+      "fps_mean": 10.008354266887315,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 585930,
+      "fc_mean": 98.83198909265268,
+      "fc_min": 97.26889907437776,
+      "fps_mean": 9.982779460924492,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 624992,
+      "fc_mean": 99.62623969656067,
+      "fc_min": 99.01361777721168,
+      "fps_mean": 10.007624290396645,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 664054,
+      "fc_mean": 99.99664461762163,
+      "fc_min": 99.99114488751687,
+      "fps_mean": 9.993613352133114,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 703116,
+      "fc_mean": 99.10307999362313,
+      "fc_min": 97.21091201554162,
+      "fps_mean": 9.98139008799147,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "phase_ns": 742178,
+      "fc_mean": 99.96518169767823,
+      "fc_min": 99.9081118189336,
+      "fps_mean": 9.993437003633458,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 0,
+      "fc_mean": 99.91931753960614,
+      "fc_min": 99.79104264809529,
+      "fps_mean": 10.02940349640179,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 39062,
+      "fc_mean": 96.19111739025152,
+      "fc_min": 91.62973330350222,
+      "fps_mean": 7.088124549539035,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 78124,
+      "fc_mean": 98.51082983757358,
+      "fc_min": 98.51082983757358,
+      "fps_mean": 6.6711364253384,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 117186,
+      "fc_mean": 98.51082983757358,
+      "fc_min": 98.51082983757358,
+      "fps_mean": 6.6711364253384,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 156248,
+      "fc_mean": 98.51082983757358,
+      "fc_min": 98.51082983757358,
+      "fps_mean": 6.6711364253384,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 195310,
+      "fc_mean": 98.51082983757358,
+      "fc_min": 98.51082983757358,
+      "fps_mean": 6.6711364253384,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 234372,
+      "fc_mean": 98.51082983757358,
+      "fc_min": 98.51082983757358,
+      "fps_mean": 6.6711364253384,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 273434,
+      "fc_mean": 98.51082983757358,
+      "fc_min": 98.51082983757358,
+      "fps_mean": 6.6711364253384,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 312496,
+      "fc_mean": 98.51082983757358,
+      "fc_min": 98.51082983757358,
+      "fps_mean": 6.6711364253384,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 351558,
+      "fc_mean": 98.51082983757358,
+      "fc_min": 98.51082983757358,
+      "fps_mean": 6.6711364253384,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 390620,
+      "fc_mean": 98.51082983757358,
+      "fc_min": 98.51082983757358,
+      "fps_mean": 6.6711364253384,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 429682,
+      "fc_mean": 94.61689018468384,
+      "fc_min": 86.77872509274987,
+      "fps_mean": 3.41372525666028,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 468744,
+      "fc_mean": 96.38999564955779,
+      "fc_min": 90.65054603255174,
+      "fps_mean": 3.184760516655159,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 507806,
+      "fc_mean": 98.86959965349543,
+      "fc_min": 98.86959965349543,
+      "fps_mean": 5.173886638366696,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 546868,
+      "fc_mean": 98.86959965349543,
+      "fc_min": 98.86959965349543,
+      "fps_mean": 5.173886638366696,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 585930,
+      "fc_mean": 98.86959965349543,
+      "fc_min": 98.86959965349543,
+      "fps_mean": 5.173886638366696,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 624992,
+      "fc_mean": 98.86959965349543,
+      "fc_min": 98.86959965349543,
+      "fps_mean": 5.173886638366696,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 664054,
+      "fc_mean": 98.86959965349543,
+      "fc_min": 98.86959965349543,
+      "fps_mean": 5.173886638366696,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 703116,
+      "fc_mean": 98.86959965349543,
+      "fc_min": 98.86959965349543,
+      "fps_mean": 5.173886638366696,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 742178,
+      "fc_mean": 98.86959965349543,
+      "fc_min": 98.86959965349543,
+      "fps_mean": 5.173886638366696,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 0,
+      "fc_mean": 98.86959965349543,
+      "fc_min": 98.86959965349543,
+      "fps_mean": 5.173886638366696,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 39062,
+      "fc_mean": 98.86959965349543,
+      "fc_min": 98.86959965349543,
+      "fps_mean": 5.173886638366696,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 78124,
+      "fc_mean": 95.54432542509035,
+      "fc_min": 88.29656699965044,
+      "fps_mean": 2.8440698644561375,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 117186,
+      "fc_mean": 99.92546481638055,
+      "fc_min": 99.79872658464194,
+      "fps_mean": 8.916724394963122,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 156248,
+      "fc_mean": 99.72661478337741,
+      "fc_min": 99.27851536086568,
+      "fps_mean": 9.997904400861948,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 195310,
+      "fc_mean": 99.15911905347724,
+      "fc_min": 97.60289796960873,
+      "fps_mean": 9.962870508737272,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 234372,
+      "fc_mean": 99.99212861339329,
+      "fc_min": 99.97848034197871,
+      "fps_mean": 10.001409145791708,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 273434,
+      "fc_mean": 99.99993223082429,
+      "fc_min": 99.99980681019186,
+      "fps_mean": 10.018367967607945,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 312496,
+      "fc_mean": 99.99999934282506,
+      "fc_min": 99.99999826566473,
+      "fps_mean": 9.974422754619221,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 351558,
+      "fc_mean": 99.49853054735968,
+      "fc_min": 98.50585936809162,
+      "fps_mean": 10.00745132881109,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 390620,
+      "fc_mean": 99.24738160525386,
+      "fc_min": 97.98211655351999,
+      "fps_mean": 9.988846932266513,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 429682,
+      "fc_mean": 99.8635248823595,
+      "fc_min": 99.61094994131243,
+      "fps_mean": 9.988640318266356,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 468744,
+      "fc_mean": 99.9986808882705,
+      "fc_min": 99.99650735591979,
+      "fps_mean": 10.03822157924805,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 507806,
+      "fc_mean": 99.9999890010515,
+      "fc_min": 99.99996864526197,
+      "fps_mean": 10.009109140399115,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 546868,
+      "fc_mean": 99.92882419926451,
+      "fc_min": 99.8121615808523,
+      "fps_mean": 9.954424361051917,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 585930,
+      "fc_mean": 99.9993610289125,
+      "fc_min": 99.99831370609508,
+      "fps_mean": 10.011377096648532,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 624992,
+      "fc_mean": 99.99999426372382,
+      "fc_min": 99.99998486152542,
+      "fps_mean": 10.019804741446286,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 664054,
+      "fc_mean": 99.13480563600332,
+      "fc_min": 97.4101561665382,
+      "fps_mean": 9.990449173486395,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 703116,
+      "fc_mean": 99.31614457423272,
+      "fc_min": 97.70153096686929,
+      "fps_mean": 10.003273679274464,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "phase_ns": 742178,
+      "fc_mean": 99.81990383479246,
+      "fc_min": 99.56203386661701,
+      "fps_mean": 9.996330795577485,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 0,
+      "fc_mean": 99.9959252798699,
+      "fc_min": 99.98957500583582,
+      "fps_mean": 10.00918416207079,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 39062,
+      "fc_mean": 96.73602841176707,
+      "fc_min": 91.54672705269603,
+      "fps_mean": 6.8958204659422275,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 78124,
+      "fc_mean": 98.97795286206023,
+      "fc_min": 98.97795286206023,
+      "fps_mean": 6.438787477690588,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 117186,
+      "fc_mean": 98.97795286206023,
+      "fc_min": 98.97795286206023,
+      "fps_mean": 6.438787477690588,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 156248,
+      "fc_mean": 98.97795286206023,
+      "fc_min": 98.97795286206023,
+      "fps_mean": 6.438787477690588,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 195310,
+      "fc_mean": 98.97795286206023,
+      "fc_min": 98.97795286206023,
+      "fps_mean": 6.438787477690588,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 234372,
+      "fc_mean": 98.97795286206023,
+      "fc_min": 98.97795286206023,
+      "fps_mean": 6.438787477690588,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 273434,
+      "fc_mean": 98.97795286206023,
+      "fc_min": 98.97795286206023,
+      "fps_mean": 6.438787477690588,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 312496,
+      "fc_mean": 98.97795286206023,
+      "fc_min": 98.97795286206023,
+      "fps_mean": 6.438787477690588,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 351558,
+      "fc_mean": 98.97795286206023,
+      "fc_min": 98.97795286206023,
+      "fps_mean": 6.438787477690588,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 390620,
+      "fc_mean": 98.97795286206023,
+      "fc_min": 98.97795286206023,
+      "fps_mean": 6.438787477690588,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 429682,
+      "fc_mean": 92.9736110919558,
+      "fc_min": 82.0232896928385,
+      "fps_mean": 2.3049638003705484,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 468744,
+      "fc_mean": 95.59537174054432,
+      "fc_min": 88.67479155408087,
+      "fps_mean": 4.155147824740978,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 507806,
+      "fc_mean": 98.31873978525962,
+      "fc_min": 98.31873978525962,
+      "fps_mean": 5.668466376509036,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 546868,
+      "fc_mean": 98.31873978525962,
+      "fc_min": 98.31873978525962,
+      "fps_mean": 5.668466376509036,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 585930,
+      "fc_mean": 98.31873978525962,
+      "fc_min": 98.31873978525962,
+      "fps_mean": 5.668466376509036,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 624992,
+      "fc_mean": 98.31873978525962,
+      "fc_min": 98.31873978525962,
+      "fps_mean": 5.668466376509036,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 664054,
+      "fc_mean": 98.31873978525962,
+      "fc_min": 98.31873978525962,
+      "fps_mean": 5.668466376509036,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 703116,
+      "fc_mean": 98.31873978525962,
+      "fc_min": 98.31873978525962,
+      "fps_mean": 5.668466376509036,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 742178,
+      "fc_mean": 98.31873978525962,
+      "fc_min": 98.31873978525962,
+      "fps_mean": 5.668466376509036,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 0,
+      "fc_mean": 98.31873978525962,
+      "fc_min": 98.31873978525962,
+      "fps_mean": 5.668466376509036,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 39062,
+      "fc_mean": 98.31873978525962,
+      "fc_min": 98.31873978525962,
+      "fps_mean": 5.668466376509036,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 78124,
+      "fc_mean": 89.31006421405118,
+      "fc_min": 75.45325824485008,
+      "fps_mean": 2.604653361512962,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 117186,
+      "fc_mean": 98.53170851673678,
+      "fc_min": 96.09356911133952,
+      "fps_mean": 9.171325803929609,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 156248,
+      "fc_mean": 99.92486027048228,
+      "fc_min": 99.79122515636003,
+      "fps_mean": 9.95597356681156,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 195310,
+      "fc_mean": 99.9950071577873,
+      "fc_min": 99.98682350491883,
+      "fps_mean": 10.028846572307108,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 234372,
+      "fc_mean": 99.87820247590618,
+      "fc_min": 98.90428654185233,
+      "fps_mean": 9.990237614928153,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 273434,
+      "fc_mean": 98.95682289613153,
+      "fc_min": 96.87601043613532,
+      "fps_mean": 9.976096693823896,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 312496,
+      "fc_mean": 99.96100086706092,
+      "fc_min": 99.89707828498294,
+      "fps_mean": 10.030604243417843,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 351558,
+      "fc_mean": 99.99959131364412,
+      "fc_min": 99.9989129815026,
+      "fps_mean": 9.993003967609758,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 390620,
+      "fc_mean": 99.6676960363186,
+      "fc_min": 99.10350857443969,
+      "fps_mean": 9.995298052997597,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 429682,
+      "fc_mean": 99.99556068265609,
+      "fc_min": 99.9868949642897,
+      "fps_mean": 9.946369337534085,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 468744,
+      "fc_mean": 99.61144642131805,
+      "fc_min": 98.66419150684843,
+      "fps_mean": 10.039308060029606,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 507806,
+      "fc_mean": 99.92800219668172,
+      "fc_min": 99.80999225273669,
+      "fps_mean": 10.024941723020357,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 546868,
+      "fc_mean": 99.9992785787385,
+      "fc_min": 99.99799321323113,
+      "fps_mean": 9.972462626407697,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 585930,
+      "fc_mean": 99.99999352353858,
+      "fc_min": 99.99998198434425,
+      "fps_mean": 9.994836918872927,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 624992,
+      "fc_mean": 99.99999994790863,
+      "fc_min": 99.99999986252686,
+      "fps_mean": 10.012885008980302,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 664054,
+      "fc_mean": 99.99999999944983,
+      "fc_min": 99.99999999854806,
+      "fps_mean": 9.977527907638422,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 703116,
+      "fc_mean": 99.99999999999505,
+      "fc_min": 99.99999999998697,
+      "fps_mean": 9.995553590680279,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "phase_ns": 742178,
+      "fc_mean": 97.86970985301058,
+      "fc_min": 94.99013347038678,
+      "fps_mean": 9.960675698823628,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 0,
+      "fc_mean": 98.5847293723454,
+      "fc_min": 97.13833252064885,
+      "fps_mean": 9.988891959914296,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 39062,
+      "fc_mean": 96.4882410903765,
+      "fc_min": 91.01531762430342,
+      "fps_mean": 6.906683565757608,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 78124,
+      "fc_mean": 98.7220029915705,
+      "fc_min": 98.7220029915705,
+      "fps_mean": 6.502689933874979,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 117186,
+      "fc_mean": 98.7220029915705,
+      "fc_min": 98.7220029915705,
+      "fps_mean": 6.502689933874979,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 156248,
+      "fc_mean": 98.7220029915705,
+      "fc_min": 98.7220029915705,
+      "fps_mean": 6.502689933874979,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 195310,
+      "fc_mean": 98.7220029915705,
+      "fc_min": 98.7220029915705,
+      "fps_mean": 6.502689933874979,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 234372,
+      "fc_mean": 98.7220029915705,
+      "fc_min": 98.7220029915705,
+      "fps_mean": 6.502689933874979,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 273434,
+      "fc_mean": 98.7220029915705,
+      "fc_min": 98.7220029915705,
+      "fps_mean": 6.502689933874979,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 312496,
+      "fc_mean": 98.7220029915705,
+      "fc_min": 98.7220029915705,
+      "fps_mean": 6.502689933874979,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 351558,
+      "fc_mean": 98.7220029915705,
+      "fc_min": 98.7220029915705,
+      "fps_mean": 6.502689933874979,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 390620,
+      "fc_mean": 98.7220029915705,
+      "fc_min": 98.7220029915705,
+      "fps_mean": 6.502689933874979,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 429682,
+      "fc_mean": 96.73512511573738,
+      "fc_min": 91.64695966140968,
+      "fps_mean": 2.3252890880866133,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 468744,
+      "fc_mean": 96.40489917719518,
+      "fc_min": 90.68914428121624,
+      "fps_mean": 4.044083144410384,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 507806,
+      "fc_mean": 98.87426639380101,
+      "fc_min": 98.87426639380101,
+      "fps_mean": 5.660315424003575,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 546868,
+      "fc_mean": 98.87426639380101,
+      "fc_min": 98.87426639380101,
+      "fps_mean": 5.660315424003575,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 585930,
+      "fc_mean": 98.87426639380101,
+      "fc_min": 98.87426639380101,
+      "fps_mean": 5.660315424003575,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 624992,
+      "fc_mean": 98.87426639380101,
+      "fc_min": 98.87426639380101,
+      "fps_mean": 5.660315424003575,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 664054,
+      "fc_mean": 98.87426639380101,
+      "fc_min": 98.87426639380101,
+      "fps_mean": 5.660315424003575,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 703116,
+      "fc_mean": 98.87426639380101,
+      "fc_min": 98.87426639380101,
+      "fps_mean": 5.660315424003575,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 742178,
+      "fc_mean": 98.87426639380101,
+      "fc_min": 98.87426639380101,
+      "fps_mean": 5.660315424003575,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 0,
+      "fc_mean": 98.87426639380101,
+      "fc_min": 98.87426639380101,
+      "fps_mean": 5.660315424003575,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 39062,
+      "fc_mean": 98.87426639380101,
+      "fc_min": 98.87426639380101,
+      "fps_mean": 5.660315424003575,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 78124,
+      "fc_mean": 92.01650793221786,
+      "fc_min": 78.47376684452122,
+      "fps_mean": 3.0770235737487397,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 117186,
+      "fc_mean": 99.8016907011437,
+      "fc_min": 99.62979593535779,
+      "fps_mean": 8.908069257079436,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 156248,
+      "fc_mean": 99.9952984616234,
+      "fc_min": 99.98759227817466,
+      "fps_mean": 9.975900947471311,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 195310,
+      "fc_mean": 99.99995560848662,
+      "fc_min": 99.99986895454343,
+      "fps_mean": 10.000805774400686,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 234372,
+      "fc_mean": 99.99999955422189,
+      "fc_min": 99.9999988235572,
+      "fps_mean": 10.014959811746376,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 273434,
+      "fc_mean": 99.8052253279008,
+      "fc_min": 99.48429038247995,
+      "fps_mean": 10.025644265955247,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 312496,
+      "fc_mean": 98.5212657082527,
+      "fc_min": 96.01228003230479,
+      "fps_mean": 9.984182679039538,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 351558,
+      "fc_mean": 99.98187610550869,
+      "fc_min": 99.95045091405686,
+      "fps_mean": 10.018756386155442,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 390620,
+      "fc_mean": 99.9998314485744,
+      "fc_min": 99.99955517980827,
+      "fps_mean": 10.001914503663409,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 429682,
+      "fc_mean": 99.95572765846093,
+      "fc_min": 99.60156224796836,
+      "fps_mean": 10.014912441055726,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 468744,
+      "fc_mean": 99.97859501928234,
+      "fc_min": 99.94332551404163,
+      "fps_mean": 10.000225005280749,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 507806,
+      "fc_mean": 99.29110592096144,
+      "fc_min": 97.77671368000614,
+      "fps_mean": 10.021955452347806,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 546868,
+      "fc_mean": 99.96158481566542,
+      "fc_min": 99.89861937031814,
+      "fps_mean": 10.014768158406564,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 585930,
+      "fc_mean": 99.69110849907935,
+      "fc_min": 99.1848115423847,
+      "fps_mean": 10.00895360391322,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 624992,
+      "fc_mean": 99.67784651714183,
+      "fc_min": 99.10386152801098,
+      "fps_mean": 10.01622187536043,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 664054,
+      "fc_mean": 99.99695160033501,
+      "fc_min": 99.9919550385372,
+      "fps_mean": 9.983171728704873,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 703116,
+      "fc_mean": 99.80747813202203,
+      "fc_min": 99.49191996495072,
+      "fps_mean": 10.00977480595177,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "phase_ns": 742178,
+      "fc_mean": 99.46112706787285,
+      "fc_min": 98.30517840252337,
+      "fps_mean": 10.007799571408764,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 0,
+      "fc_mean": 99.64241647432199,
+      "fc_min": 98.23644915850961,
+      "fps_mean": 10.001045308264127,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 39062,
+      "fc_mean": 99.75578447804405,
+      "fc_min": 99.50783774559963,
+      "fps_mean": 10.024888569858295,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 78124,
+      "fc_mean": 99.96275212691732,
+      "fc_min": 99.89768205106796,
+      "fps_mean": 9.981384645761752,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 117186,
+      "fc_mean": 99.20938540292485,
+      "fc_min": 97.83853130257715,
+      "fps_mean": 9.991722938194211,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 156248,
+      "fc_mean": 99.99267133200976,
+      "fc_min": 99.9805957082333,
+      "fps_mean": 10.02056935376364,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 195310,
+      "fc_mean": 99.88387260535819,
+      "fc_min": 99.60153334890822,
+      "fps_mean": 10.023112340933515,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 234372,
+      "fc_mean": 99.99275879861912,
+      "fc_min": 99.97862369474169,
+      "fps_mean": 10.00800210822863,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 273434,
+      "fc_mean": 99.99993499309775,
+      "fc_min": 99.99980809712183,
+      "fps_mean": 9.958111812142429,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 312496,
+      "fc_mean": 99.99999935636981,
+      "fc_min": 99.99999827721797,
+      "fps_mean": 10.03491283480586,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 351558,
+      "fc_mean": 99.9999999941396,
+      "fc_min": 99.99999998453394,
+      "fps_mean": 10.025941938529742,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 390620,
+      "fc_mean": 99.99999999994128,
+      "fc_min": 99.99999999983665,
+      "fps_mean": 9.978944268336747,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 429682,
+      "fc_mean": 99.99999999999945,
+      "fc_min": 99.99999999999854,
+      "fps_mean": 9.990782186891707,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 468744,
+      "fc_mean": 99.66243868942055,
+      "fc_min": 99.06100137617179,
+      "fps_mean": 10.044574368721472,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 507806,
+      "fc_mean": 99.99680580269704,
+      "fc_min": 99.9915702673432,
+      "fps_mean": 10.002938402212202,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 546868,
+      "fc_mean": 99.99996799399786,
+      "fc_min": 99.99991096849364,
+      "fps_mean": 9.971412178674736,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 585930,
+      "fc_mean": 99.99999970139393,
+      "fc_min": 99.99999920073174,
+      "fps_mean": 10.010060181653646,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 624992,
+      "fc_mean": 99.53640907311498,
+      "fc_min": 98.77654784438718,
+      "fps_mean": 10.016247097734137,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 664054,
+      "fc_mean": 99.99583817539602,
+      "fc_min": 99.98901662438212,
+      "fps_mean": 10.00004803377077,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 703116,
+      "fc_mean": 99.99995604445256,
+      "fc_min": 99.99988399792542,
+      "fps_mean": 9.936297906380927,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 742178,
+      "fc_mean": 99.65181090828632,
+      "fc_min": 98.80468729497639,
+      "fps_mean": 10.04671406844339,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 0,
+      "fc_mean": 98.0346311373631,
+      "fc_min": 95.53426279203383,
+      "fps_mean": 10.004758617543478,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 39062,
+      "fc_mean": 99.7012519830212,
+      "fc_min": 99.29604492736674,
+      "fps_mean": 9.992313427849139,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 78124,
+      "fc_mean": 99.99500371559272,
+      "fc_min": 99.98575707590159,
+      "fps_mean": 9.987994815805294,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 117186,
+      "fc_mean": 99.93779021302747,
+      "fc_min": 99.81635431381704,
+      "fps_mean": 9.996467298870645,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 156248,
+      "fc_mean": 99.99946899765396,
+      "fc_min": 99.99859864391813,
+      "fps_mean": 10.006195893010492,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 195310,
+      "fc_mean": 99.99999523299853,
+      "fc_min": 99.99998741951603,
+      "fps_mean": 10.033879362728793,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 234372,
+      "fc_mean": 99.99999995139923,
+      "fc_min": 99.9999998671299,
+      "fps_mean": 9.975734994527635,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 273434,
+      "fc_mean": 99.42744310703482,
+      "fc_min": 98.40624999947073,
+      "fps_mean": 10.001702922779526,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 312496,
+      "fc_mean": 99.9896141683655,
+      "fc_min": 99.97259099053895,
+      "fps_mean": 9.992895394123698,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 351558,
+      "fc_mean": 99.9158074953034,
+      "fc_min": 99.76541584843808,
+      "fps_mean": 9.983981785308616,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 390620,
+      "fc_mean": 99.79586746378072,
+      "fc_min": 99.30224660190089,
+      "fps_mean": 9.982396524270287,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 429682,
+      "fc_mean": 98.75320140026594,
+      "fc_min": 96.90010954473576,
+      "fps_mean": 10.017688785492274,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 468744,
+      "fc_mean": 99.95138696982926,
+      "fc_min": 99.86141867786675,
+      "fps_mean": 9.989046488783202,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 507806,
+      "fc_mean": 99.96884671270274,
+      "fc_min": 99.9175146865688,
+      "fps_mean": 10.01478001633133,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 546868,
+      "fc_mean": 99.90577407193041,
+      "fc_min": 99.75133051980558,
+      "fps_mean": 10.028108263040544,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 585930,
+      "fc_mean": 99.95480786809321,
+      "fc_min": 99.60139674213524,
+      "fps_mean": 9.966478572079916,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 624992,
+      "fc_mean": 99.81110629940856,
+      "fc_min": 99.47455197220111,
+      "fps_mean": 9.97272762135234,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 664054,
+      "fc_mean": 99.83120243740879,
+      "fc_min": 99.48721418453489,
+      "fps_mean": 10.009535788639765,
+      "pass": false
+    },
+    {
+      "phase_lock": true,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 703116,
+      "fc_mean": 99.98773674729725,
+      "fc_min": 99.96763633176597,
+      "fps_mean": 10.022615552702225,
+      "pass": true
+    },
+    {
+      "phase_lock": true,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "phase_ns": 742178,
+      "fc_mean": 99.99987342073484,
+      "fc_min": 99.99965818772057,
+      "fps_mean": 9.975280562763839,
+      "pass": true
+    }
+  ],
+  "summary": [
+    {
+      "phase_lock": false,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "fc_min": 91.91024158526487,
+      "fc_mean": 97.69834654156719,
+      "fc_max": 99.98322087317295,
+      "pass_count": 3,
+      "total": 20
+    },
+    {
+      "phase_lock": false,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "fc_min": 91.5105927129073,
+      "fc_mean": 98.9485058076968,
+      "fc_max": 99.99999996762658,
+      "pass_count": 10,
+      "total": 20
+    },
+    {
+      "phase_lock": false,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "fc_min": 93.51582686757658,
+      "fc_mean": 98.54514370038474,
+      "fc_max": 99.99984935990129,
+      "pass_count": 1,
+      "total": 20
+    },
+    {
+      "phase_lock": false,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "fc_min": 96.43146205733397,
+      "fc_mean": 99.63892454895837,
+      "fc_max": 99.99999992956302,
+      "pass_count": 13,
+      "total": 20
+    },
+    {
+      "phase_lock": false,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "fc_min": 94.93930996585935,
+      "fc_mean": 98.67906920574113,
+      "fc_max": 99.55605988311171,
+      "pass_count": 0,
+      "total": 20
+    },
+    {
+      "phase_lock": false,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "fc_min": 98.26591227505747,
+      "fc_mean": 99.70596679292404,
+      "fc_max": 99.99999999978651,
+      "pass_count": 15,
+      "total": 20
+    },
+    {
+      "phase_lock": false,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "fc_min": 94.0973318295002,
+      "fc_mean": 98.2841944971188,
+      "fc_max": 99.99999999996085,
+      "pass_count": 1,
+      "total": 20
+    },
+    {
+      "phase_lock": false,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "fc_min": 96.96542459921751,
+      "fc_mean": 99.65143518919176,
+      "fc_max": 99.99999999999996,
+      "pass_count": 13,
+      "total": 20
+    },
+    {
+      "phase_lock": false,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "fc_min": 94.58861450244675,
+      "fc_mean": 97.03593197942287,
+      "fc_max": 98.34931737570038,
+      "pass_count": 0,
+      "total": 20
+    },
+    {
+      "phase_lock": false,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "fc_min": 91.00408894950192,
+      "fc_mean": 99.01737616372576,
+      "fc_max": 99.9999999671408,
+      "pass_count": 12,
+      "total": 20
+    },
+    {
+      "phase_lock": false,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "fc_min": 92.57811463327485,
+      "fc_mean": 97.71937682011539,
+      "fc_max": 99.99999432425707,
+      "pass_count": 1,
+      "total": 20
+    },
+    {
+      "phase_lock": false,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "fc_min": 92.55120857068631,
+      "fc_mean": 99.25846211624446,
+      "fc_max": 99.9999973217333,
+      "pass_count": 9,
+      "total": 20
+    },
+    {
+      "phase_lock": false,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "fc_min": 99.1234632246634,
+      "fc_mean": 99.81199206737351,
+      "fc_max": 99.99999999972381,
+      "pass_count": 12,
+      "total": 20
+    },
+    {
+      "phase_lock": false,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "fc_min": 99.5915974613445,
+      "fc_mean": 99.94603156636903,
+      "fc_max": 99.99999999966357,
+      "pass_count": 16,
+      "total": 20
+    },
+    {
+      "phase_lock": true,
+      "case": "single_50.00us",
+      "open_ns": 50000,
+      "fc_min": 90.48714997770469,
+      "fc_mean": 95.65797207602837,
+      "fc_max": 99.99932532968113,
+      "pass_count": 2,
+      "total": 20
+    },
+    {
+      "phase_lock": true,
+      "case": "split_50.00us",
+      "open_ns": 50000,
+      "fc_min": 91.4667091325745,
+      "fc_mean": 97.75956315669605,
+      "fc_max": 99.99999999939926,
+      "pass_count": 11,
+      "total": 20
+    },
+    {
+      "phase_lock": true,
+      "case": "single_60.00us",
+      "open_ns": 60000,
+      "fc_min": 95.0961793780019,
+      "fc_mean": 98.936145019097,
+      "fc_max": 99.999999977854,
+      "pass_count": 1,
+      "total": 20
+    },
+    {
+      "phase_lock": true,
+      "case": "split_60.00us",
+      "open_ns": 60000,
+      "fc_min": 94.34776840401727,
+      "fc_mean": 99.54554813303157,
+      "fc_max": 99.99999870047667,
+      "pass_count": 11,
+      "total": 20
+    },
+    {
+      "phase_lock": true,
+      "case": "single_70.00us",
+      "open_ns": 70000,
+      "fc_min": 95.27139786269089,
+      "fc_mean": 98.61418700999486,
+      "fc_max": 99.87793033555567,
+      "pass_count": 0,
+      "total": 20
+    },
+    {
+      "phase_lock": true,
+      "case": "split_70.00us",
+      "open_ns": 70000,
+      "fc_min": 95.39309704210919,
+      "fc_mean": 99.22083644313119,
+      "fc_max": 99.99993348484941,
+      "pass_count": 8,
+      "total": 20
+    },
+    {
+      "phase_lock": true,
+      "case": "single_80.00us",
+      "open_ns": 80000,
+      "fc_min": 94.61689018468384,
+      "fc_mean": 98.29009934383647,
+      "fc_max": 99.91931753960614,
+      "pass_count": 1,
+      "total": 20
+    },
+    {
+      "phase_lock": true,
+      "case": "split_80.00us",
+      "open_ns": 80000,
+      "fc_min": 95.54432542509035,
+      "fc_mean": 99.44469620167916,
+      "fc_max": 99.99999934282506,
+      "pass_count": 8,
+      "total": 20
+    },
+    {
+      "phase_lock": true,
+      "case": "single_100.00us",
+      "open_ns": 100000,
+      "fc_min": 92.9736110919558,
+      "fc_mean": 98.21668453897483,
+      "fc_max": 99.9959252798699,
+      "pass_count": 1,
+      "total": 20
+    },
+    {
+      "phase_lock": true,
+      "case": "split_100.00us",
+      "open_ns": 100000,
+      "fc_min": 89.31006421405118,
+      "fc_mean": 99.01332122609676,
+      "fc_max": 99.99999999999505,
+      "pass_count": 11,
+      "total": 20
+    },
+    {
+      "phase_lock": true,
+      "case": "single_120.00us",
+      "open_ns": 120000,
+      "fc_min": 96.40489917719518,
+      "fc_mean": 98.4415443218198,
+      "fc_max": 98.87426639380101,
+      "pass_count": 0,
+      "total": 20
+    },
+    {
+      "phase_lock": true,
+      "case": "split_120.00us",
+      "open_ns": 120000,
+      "fc_min": 92.01650793221786,
+      "fc_mean": 99.28458544331767,
+      "fc_max": 99.99999955422189,
+      "pass_count": 9,
+      "total": 20
+    },
+    {
+      "phase_lock": true,
+      "case": "single_150.00us",
+      "open_ns": 150000,
+      "fc_min": 99.20938540292485,
+      "fc_mean": 99.86414009752512,
+      "fc_max": 99.99999999999945,
+      "pass_count": 13,
+      "total": 20
+    },
+    {
+      "phase_lock": true,
+      "case": "split_150.00us",
+      "open_ns": 150000,
+      "fc_min": 98.0346311373631,
+      "fc_mean": 99.74804046966058,
+      "fc_max": 99.99999995139923,
+      "pass_count": 13,
+      "total": 20
+    }
+  ],
+  "best": {
+    "phase_lock": false,
+    "case": "split_150.00us",
+    "open_ns": 150000,
+    "fc_min": 99.5915974613445,
+    "fc_mean": 99.94603156636903,
+    "fc_max": 99.99999999966357,
+    "pass_count": 16,
+    "total": 20
+  }
+}

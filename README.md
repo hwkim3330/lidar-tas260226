@@ -126,6 +126,36 @@ LAN9662 + Ouster LiDAR에서 `cycle=781us` TAS를 실측한 레포.
   - 다만 **3-slot + 위상 정렬 유지가 가능할 때만** 일부 패턴(`10/731/40`)은 실사용 가능성이 있음.
   - 위상 유지 실패 시 급락하므로, 운영 안정 최우선이면 여전히 `146~150us`가 안전.
 
+추가 실험 (781.25us 정밀 + open 폭 확대, 2026-02-26):
+- `data/phase_align_781p25_20260226_135910.json`
+- `data/phase_align_781p25_20260226_135910.md`
+- `data/refine_781p25_open_20260226_143346.json`
+- `data/refine_781p25_open_20260226_143346.md`
+
+핵심:
+- 질문처럼 open을 더 넓히면 안정성은 실제로 개선됨.
+- `cycle=781.25us`에서 최고 강건 설정(이번 매트릭스 기준):
+  - `split_150us = 75us(open) / 631.25us(close) / 75us(open)`
+  - `phase_lock=false`
+  - PASS(>=99.9% & fps>=9.5) `16/20`, `fc_min=99.59%`, `fc_mean=99.95%`
+- 50~120us 구간은 일부 phase에서 잘 되지만, phase 전구간 강건성은 150us보다 낮음.
+- 즉, 실운영 안정 우선이면 `open=150us` 계열이 가장 안전.
+
+## 라이다 시작점(위치) 어떻게 맞췄는가
+
+정확히는 \"LiDAR 시작점을 직접 고정\"한 게 아니라, 아래 방식으로 **상대 위상 정렬**을 수행:
+
+1. 스위치 `current-time`를 매번 fetch
+2. `admin-base-time = current-time + offset + phase_offset`로 TAS 시작 시점 생성
+3. `phase_offset`을 0 ~ cycle 전구간 sweep
+4. 각 phase에서 `frame_completeness + fps`를 측정해 통과/실패 맵 생성
+5. 통과 영역이 가장 넓은 설정(open/entry split)을 선택
+
+중요:
+- LiDAR의 packet emission epoch를 절대 0ns로 \"고정 제어\"한 것이 아님.
+- 그래서 운영에서는 \"한 점 최적\"보다 \"위상 오차를 견디는 폭(robust window)\"이 핵심.
+- 이번 기준에서 그 robust window가 가장 큰 값이 `split 150us`였다.
+
 ## 멀티 LiDAR 전략 (안정 우선)
 
 핵심:
@@ -197,6 +227,17 @@ python3 scripts/run_50us_phase_alignment_experiments.py \
   --duration 2.0 \
   --interval 0.2 \
   --settle 0.4
+```
+
+2-4. 781.25us open 폭 정밀 리파인
+```bash
+cd /home/kim/lidar-tas260226
+python3 scripts/run_781p25_open_refine.py \
+  --open-us-list 50,60,70,80,100,120,150 \
+  --phases 20 \
+  --duration 1.8 \
+  --interval 0.2 \
+  --settle 0.35
 ```
 
 3. 단일 스윕
