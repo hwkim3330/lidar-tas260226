@@ -313,6 +313,12 @@ cd /home/kim/lidar-tas260226
 python3 scripts/run_deep_opt_150ns.py
 ```
 
+2-4-1. 현재 best 운영값 즉시 재적용
+```bash
+cd /home/kim/lidar-tas260226
+python3 scripts/apply_best_781p25_tas.py --disable-phase-lock
+```
+
 2-5. 781.25us open 폭 정밀 리파인
 ```bash
 cd /home/kim/lidar-tas260226
@@ -355,10 +361,11 @@ curl -s http://127.0.0.1:8080/api/stats | jq -c '{fps,frame_completeness,pps}'
 ```
 2. 운영 TAS 적용 (best)
 ```bash
-cd /home/kim/keti-tsn-cli-new
-./keti-tsn patch /home/kim/lidar-tas260226/_deep_opt_runtime.yaml
+cd /home/kim/lidar-tas260226
+python3 scripts/apply_best_781p25_tas.py --disable-phase-lock
 ```
-만약 위 파일이 없으면(또는 patch 실패 시) 아래로 best를 재생성:
+위 명령은 switch current-time을 읽어 base-time을 다시 계산해 적용함.
+만약 patch 실패 시 장시간 탐색부터 다시 실행:
 ```bash
 cd /home/kim/lidar-tas260226
 python3 scripts/run_deep_opt_150ns.py
