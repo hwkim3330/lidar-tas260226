@@ -107,6 +107,25 @@ LAN9662 + Ouster LiDAR에서 `cycle=781us` TAS를 실측한 레포.
 - 재검증에서 `single_30`도 FAIL로 확인되어, `30us` 운용값 가설은 재현성 부족.
 - 결론: 단일 LiDAR 안정 운용은 계속 `open >= 146us`(권장 `150us`)가 맞음.
 
+추가 실험 (50us + phase alignment, 2026-02-26):
+- `data/phase_align_50us_20260226_133151.json`
+- `data/phase_align_50us_20260226_133151.md`
+
+핵심:
+- 단일 `open=50us`는 phase 민감도가 매우 커서 안정 불가.
+  - phase_lock off: pass(>=99.9%) `2/20`
+  - phase_lock on: pass(>=99.9%) `0/20`
+- 3-slot으로 50us를 분할하면 case에 따라 개선됨.
+  - `10/731/40`:
+    - phase_lock off: pass `17/20`, `fc_min=99.50%`
+    - phase_lock on: pass `14/20`, `fc_min=98.89%`
+  - `25/731/25`: 중간 수준(pass `9~11/20`)
+  - `40/731/10`: 특정 위상 구간에서만 pass(대역 이탈 시 급락)
+- 결론:
+  - "50 정도면 된다"는 가설은 **단일 50us 기준으론 성립 안 함**.
+  - 다만 **3-slot + 위상 정렬 유지가 가능할 때만** 일부 패턴(`10/731/40`)은 실사용 가능성이 있음.
+  - 위상 유지 실패 시 급락하므로, 운영 안정 최우선이면 여전히 `146~150us`가 안전.
+
 ## 멀티 LiDAR 전략 (안정 우선)
 
 핵심:
@@ -168,6 +187,16 @@ python3 scripts/run_3slot_server_experiments.py \
   --duration-s 60 \
   --settle-s 6 \
   --sample-period-s 0.5
+```
+
+2-3. 50us phase alignment 매트릭스
+```bash
+cd /home/kim/lidar-tas260226
+python3 scripts/run_50us_phase_alignment_experiments.py \
+  --phase-step-us 40 \
+  --duration 2.0 \
+  --interval 0.2 \
+  --settle 0.4
 ```
 
 3. 단일 스윕
