@@ -62,9 +62,14 @@ LAN9662 + Ouster LiDAR에서 `cycle=781us` TAS를 실측한 레포.
 
 ## 권장 운영값
 
-- 안전 운용은 `open >= 160us`부터 시작 권장.
-- 최소화 실험은 `160 -> 152 -> 148 -> 144`처럼 경계 근처를 촘촘히 검증.
+- 장시간(25초 x 3회, phase=0ns) 기준 최소 안정값은 `146us`로 측정됨.
+- 실운영 권장은 마진 포함 `150us` 이상.
+- 최소화 실험은 `150 -> 148 -> 146 -> 144`처럼 경계 근처를 촘촘히 검증.
 - `28us`는 실험값으로는 의미가 있어도 운영 목표값으로는 비권장.
+
+장시간 최적화 결과:
+- `data/single_lidar_long_opt_20260226_110713.json`
+- `data/single_lidar_long_opt_20260226_110713.md`
 
 ## 멀티 LiDAR 전략 (안정 우선)
 
@@ -108,6 +113,16 @@ cd /home/kim/lidar-tas260226
 ```bash
 cd /home/kim/lidar-tas260226
 python3 scripts/run_full_alignment_suite.py
+```
+
+2-1. 단일 LiDAR 장시간 최적화(반복 안정성 기준)
+```bash
+cd /home/kim/lidar-tas260226
+python3 scripts/run_single_lidar_long_opt.py \
+  --opens 168,164,160,156,152,150,148,146,144 \
+  --phase-ns 0 \
+  --duration 25 \
+  --repeats 3
 ```
 
 3. 단일 스윕
