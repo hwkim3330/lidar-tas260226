@@ -46,6 +46,20 @@ LAN9662 + Ouster LiDAR에서 `cycle=781us` TAS를 실측한 레포.
 - `data/phase_sweep_20260226_103136.json`
 - `data/open_sweep_best_phase_20260226_103136.json`
 
+추가 검증 (`30us` 집중, 2026-02-26):
+- `data/phase_sweep_open30_20260226_104646.json`
+- `data/open40to20_phase500k_20260226_105015.json`
+- `data/open30_phase0_20260226_105122.json`
+- `data/open30_phase380000_20260226_105126.json`
+- `data/open30_phase500000_20260226_105130.json`
+- `data/open30_phase620000_20260226_105134.json`
+- `data/open30_phase740000_20260226_105138.json`
+
+요약:
+- `open=30us`는 일부 phase에서만 수신되고 대부분 phase는 `0%`.
+- 같은 phase처럼 보여도 재실행 시 결과가 쉽게 바뀜.
+- 따라서 `30us`는 운영 안정값으로 부적합.
+
 ## 권장 운영값
 
 - 안전 운용은 `open >= 160us`부터 시작 권장.
