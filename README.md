@@ -84,6 +84,17 @@ LAN9662 + Ouster LiDAR에서 `cycle=781us` TAS를 실측한 레포.
 - `146us`: phase 강건(99.95~100%, 99.9% 통과 40/40)
 - 따라서 최소 안정 경계는 `146us`, 운영 권장은 `150us`.
 
+
+추가 실험 (웹서버 실행 상태 매트릭스):
+- `data/server_stats_matrix_20260226_125107.json` (2048x10, phase_lock off/on)
+- `data/server_stats_matrix_20260226_125855.json` (1024x10, phase_lock off/on)
+- 요약: `data/extra_experiments_20260226.md`
+
+핵심:
+- `phase_lock_enable=true`만으로 144us 경계 문제는 해결되지 않음
+- `lidar_mode=1024x10` 변경만으로도 경계 안정화되지 않음
+- 현재 구성에서 안정 경계는 여전히 146us 이상
+
 ## 멀티 LiDAR 전략 (안정 우선)
 
 핵심:
