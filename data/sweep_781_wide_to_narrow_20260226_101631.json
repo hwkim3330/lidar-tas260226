@@ -1,0 +1,19 @@
+[
+  {
+    "packets": 6401,
+    "pps": 1280.1537961741863,
+    "completeness_pct": 100.0,
+    "gap_mean_us": 781.2781971892946,
+    "gap_stdev_us": 148.8415423649032,
+    "gap_p99_us": 1253.2559921965003,
+    "gap_max_us": 1919.7840010747313,
+    "burst_pct": 0.078125,
+    "cycle_us": 781,
+    "open_us": 0,
+    "close_us": 781,
+    "open_pct": 0.0,
+    "base_time_mode": "zero",
+    "base_time_sec": 0,
+    "base_time_nsec": 0
+  }
+]
