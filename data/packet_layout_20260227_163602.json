@@ -1,0 +1,32 @@
+{
+  "timestamp": "20260227_163602",
+  "source": "packet_json:data/packet_timing_20260227_160116.json",
+  "doc_reference": "https://static.ouster.dev/sensor-docs/image_route1/image_route2/sensor_data/sensor-data.html#lidar-data-packet-format",
+  "layout": {
+    "udp_profile_lidar": "RNG19_RFL8_SIG16_NIR16",
+    "columns_per_packet": 16,
+    "pixels_per_column": 16,
+    "channel_block_bytes": 12,
+    "packet_header_bytes": 32,
+    "column_header_bytes": 12,
+    "column_total_bytes": 204,
+    "packet_footer_bytes": 32,
+    "packet_payload_bytes": 3328,
+    "packet_rate_hz": 1280.0,
+    "inter_packet_us": 781.25
+  },
+  "fragmentation": {
+    "mtu": 1500,
+    "ip_payload_fragments_bytes": [
+      1480,
+      1480,
+      376
+    ],
+    "serialization_us_per_fragment": [
+      12.336,
+      12.336,
+      3.504
+    ],
+    "serialization_us_total": 28.176000000000002
+  }
+}

@@ -510,6 +510,25 @@ python3 scripts/analyze_lidar_packet_timing.py --duration-s 60
   - `data/packet_timing_20260227_160116_len_hist.png`
   - `data/packet_timing_20260227_160116_frame_counts.png`
 
+2-13. Ouster 문서 기반 B단위 패킷 레이아웃 + MTU/IFG 그래프
+```bash
+cd /home/kim/lidar-tas260226
+python3 scripts/generate_packet_layout_graphs.py \
+  --packet-json data/packet_timing_20260227_160116.json
+```
+- 산출물 예:
+  - `data/packet_layout_20260227_163602.md`
+  - `data/packet_layout_20260227_163602.json`
+  - `data/packet_layout_20260227_163602_payload.png`
+  - `data/packet_layout_20260227_163602_column.png`
+  - `data/packet_layout_20260227_163602_fragments.png`
+- 이번 센서 실측 프로파일 기준:
+  - `udp_profile_lidar=RNG19_RFL8_SIG16_NIR16`
+  - `packet_payload=3328B` (3392B LEGACY가 아님)
+  - `inter_packet=781.25us` (@2048x10, cpp=16)
+  - `MTU1500` 분할(IP payload): `[1480, 1480, 376]`
+  - 1GbE 직렬화(IFG 포함, VLAN 가정) 합계: 약 `28.176us`
+
 ## 재적용/재검증 체크리스트
 
 1. LiDAR/웹서버 기동 확인
