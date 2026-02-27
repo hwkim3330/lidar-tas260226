@@ -1,0 +1,49 @@
+{
+  "timestamp": "20260227_164122",
+  "doc_reference": "https://static.ouster.dev/sensor-docs/image_route1/image_route2/sensor_data/sensor-data.html#lidar-data-packet-format",
+  "sensor_config": {
+    "udp_profile_lidar": "RNG19_RFL8_SIG16_NIR16",
+    "lidar_mode": "1024x20",
+    "timestamp_mode": "TIME_FROM_PTP_1588",
+    "columns_per_packet": 16,
+    "pixels_per_column": 16
+  },
+  "layout": {
+    "profile": "RNG19_RFL8_SIG16_NIR16",
+    "lidar_mode": "1024x20",
+    "timestamp_mode": "TIME_FROM_PTP_1588",
+    "columns_per_packet": 16,
+    "pixels_per_column": 16,
+    "channel_block_bytes": 12,
+    "packet_header_bytes": 32,
+    "column_header_bytes": 12,
+    "column_channels_bytes": 192,
+    "column_total_bytes": 204,
+    "packet_footer_bytes": 32,
+    "packet_payload_bytes": 3328,
+    "packet_rate_hz": 1280.0,
+    "packet_interval_us": 781.25
+  },
+  "fragment_timing": {
+    "mtu": 1500,
+    "ip_payload_fragments_bytes": [
+      1480,
+      1480,
+      376
+    ],
+    "onwire_us_per_fragment": [
+      12.336,
+      12.336,
+      3.504
+    ],
+    "onwire_us_total": 28.176000000000002,
+    "packet_interval_us": 781.25,
+    "wire_share_percent": 3.6065280000000004
+  },
+  "figures": {
+    "packet": "/home/kim/lidar-tas260226/data/packet_layout_detailed_20260227_164122_packet.png",
+    "column": "/home/kim/lidar-tas260226/data/packet_layout_detailed_20260227_164122_column.png",
+    "channel_table": "/home/kim/lidar-tas260226/data/packet_layout_detailed_20260227_164122_channel_table.png",
+    "fragment_timing": "/home/kim/lidar-tas260226/data/packet_layout_detailed_20260227_164122_frag_timing.png"
+  }
+}

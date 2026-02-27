@@ -529,6 +529,32 @@ python3 scripts/generate_packet_layout_graphs.py \
   - `MTU1500` 분할(IP payload): `[1480, 1480, 376]`
   - 1GbE 직렬화(IFG 포함, VLAN 가정) 합계: 약 `28.176us`
 
+2-14. Ouster 문서 기반 상세 패킷 그림 (절대 오프셋/채널 테이블/IFG)
+```bash
+cd /home/kim/lidar-tas260226
+python3 scripts/generate_packet_layout_detailed.py --host 192.168.6.11 --mtu 1500
+```
+- 모드 변경 후 그리기(선택):
+```bash
+cd /home/kim/lidar-tas260226
+python3 scripts/generate_packet_layout_detailed.py \
+  --host 192.168.6.11 \
+  --set-mode 1024x10 \
+  --mtu 1500
+```
+- 산출물 예:
+  - `data/packet_layout_detailed_20260227_164122.md`
+  - `data/packet_layout_detailed_20260227_164122.json`
+  - `data/packet_layout_detailed_20260227_164122_packet.png`
+  - `data/packet_layout_detailed_20260227_164122_column.png`
+  - `data/packet_layout_detailed_20260227_164122_channel_table.png`
+  - `data/packet_layout_detailed_20260227_164122_frag_timing.png`
+- 그림 의미:
+  - `*_packet.png`: UDP payload 전체의 절대 바이트 오프셋 맵
+  - `*_column.png`: 1개 column 내부(헤더 + ch0..ch15) 바이트 맵
+  - `*_channel_table.png`: 채널별 시작/끝 바이트 표
+  - `*_frag_timing.png`: MTU 분할 + IFG 포함 on-wire 시간(1GbE)
+
 ## 재적용/재검증 체크리스트
 
 1. LiDAR/웹서버 기동 확인
