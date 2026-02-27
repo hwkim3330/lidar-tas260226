@@ -1,0 +1,50 @@
+{
+  "timestamp": "20260227_170633",
+  "doc_reference": "https://static.ouster.dev/sensor-docs/image_route1/image_route2/sensor_data/sensor-data.html#lidar-data-packet-format",
+  "sensor_config": {
+    "udp_profile_lidar": "RNG19_RFL8_SIG16_NIR16",
+    "columns_per_packet": 16,
+    "lidar_mode": "512x10",
+    "timestamp_mode": "TIME_FROM_PTP_1588",
+    "phase_lock_enable": true,
+    "phase_lock_offset": 0
+  },
+  "metadata_format": {
+    "pixels_per_column": 16,
+    "columns_per_frame": 512,
+    "udp_profile_lidar": "RNG19_RFL8_SIG16_NIR16",
+    "columns_per_packet": 16
+  },
+  "expected": {
+    "packet_size_bytes_formula": 3328,
+    "packet_rate_hz_formula": 320.0
+  },
+  "measured": {
+    "packets": 191982,
+    "span_s": 600.0006090480019,
+    "pps_measured": 319.9680085402062,
+    "pps_expected": 320.0,
+    "pps_error_pct": -0.009997331185562786,
+    "dt_expected_us": 3125.0,
+    "dt_mean_us": 3125.3124478359937,
+    "dt_stdev_us": 135.6970181363041,
+    "dt_min_us": 1769.5679853204638,
+    "dt_p50_us": 3123.152011539787,
+    "dt_p95_us": 3348.9219786133617,
+    "dt_p99_us": 3475.9459958877414,
+    "dt_max_us": 4405.942017911002,
+    "packet_len_mean": 3328,
+    "packet_len_min": 3328,
+    "packet_len_max": 3328,
+    "frame_count_samples": 6000,
+    "packets_per_frame_median": 32.0,
+    "packets_per_frame_min": 18,
+    "packets_per_frame_max": 32
+  },
+  "plots": {
+    "dt_series_png": "/home/kim/lidar-tas260226/data/packet_timing_20260227_170633_dt_series.png",
+    "dt_hist_png": "/home/kim/lidar-tas260226/data/packet_timing_20260227_170633_dt_hist.png",
+    "len_hist_png": "/home/kim/lidar-tas260226/data/packet_timing_20260227_170633_len_hist.png",
+    "frame_counts_png": "/home/kim/lidar-tas260226/data/packet_timing_20260227_170633_frame_counts.png"
+  }
+}
