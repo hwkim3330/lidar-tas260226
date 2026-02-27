@@ -219,6 +219,34 @@ LAN9662 + Ouster LiDAR에서 `cycle=781us` TAS를 실측한 레포.
 - 장시간 기준 현재 best는 `close/open/close = 305625 / 150000 / 325625` + `phase=180000ns`.
 - 재현 스크립트: `scripts/run_deep_opt_150ns.py`
 
+추가 검증 (timestamp_mode + phase_lock + TAS phase 매트릭스, 2026-02-27):
+- 목적:
+  - "데이터 시작위상"이 실제로 도움이 되는지, `timestamp_mode/phase_lock` 축을 분리해 확인
+- 파일:
+  - `data/phaselock_tas_2d_20260227_113235.json`
+  - `data/phaselock_tas_2d_20260227_113235.md`
+  - `data/timebase_mode_matrix_20260227_114513.json`
+  - `data/timebase_mode_matrix_20260227_114513.md`
+  - `data/timebase_mode_matrix_20260227_115526.json`
+  - `data/timebase_mode_matrix_20260227_115526.md`
+- 스크립트:
+  - `scripts/run_phase_lock_tas_2d.py`
+  - `scripts/run_timebase_mode_matrix.py`
+
+핵심 결과(`timebase_mode_matrix_20260227_115526`, 60s/case):
+- 1위: `TIME_FROM_PTP_1588 + phase_lock=true + offset=0 + tas_phase=300000`
+  - `fc_mean=99.298`, `fc_p01=96.274`, `fps_mean=9.725`
+- 2위: `TIME_FROM_PTP_1588 + phase_lock=false + tas_phase=180000`
+  - `fc_mean=99.531`, `fc_p01=95.159`
+- 3위 이하:
+  - `offset=90000`는 오히려 악화(`fc_p01=89.422`)
+  - `TIME_FROM_SYNC_PULSE_IN + phase_lock=true`는 심각한 붕괴 가능성 확인
+
+해석:
+- "각도 자체"보다 "시간축 오차를 줄이는 위상 정렬"이 실제로 중요함.
+- 단, phase_lock은 offset 선택이 잘못되면 성능이 크게 악화됨.
+- 현재 장비에서는 `offset=0`이 가장 안전하고, `offset=90000`은 비권장.
+
 ## 라이다 시작점(위치) 어떻게 맞췄는가
 
 정확히는 \"LiDAR 시작점을 직접 고정\"한 게 아니라, 아래 방식으로 **상대 위상 정렬**을 수행:
@@ -350,6 +378,23 @@ python3 scripts/run_small_open_vs_allopen.py \
   --search-duration-s 1.0 \
   --soak-duration-s 120 \
   --settle-s 0.25
+```
+
+2-8. phase_lock_offset x TAS phase 2D 스윕
+```bash
+cd /home/kim/lidar-tas260226
+python3 scripts/run_phase_lock_tas_2d.py \
+  --phase-lock-offsets 0,90000,180000,270000 \
+  --phase-step-ns 20000 \
+  --duration-s 1.2
+```
+
+2-9. timestamp_mode/phase_lock 매트릭스 비교
+```bash
+cd /home/kim/lidar-tas260226
+python3 scripts/run_timebase_mode_matrix.py \
+  --duration-s 60 \
+  --sample-s 0.5
 ```
 
 ## 재적용/재검증 체크리스트

@@ -1,0 +1,211 @@
+{
+  "timestamp": "20260227_114513",
+  "duration_s": 90.0,
+  "entries_ns": [
+    305625,
+    150000,
+    325625
+  ],
+  "results": [
+    {
+      "name": "syncin_plock_off_phase180k",
+      "timestamp_mode": "TIME_FROM_SYNC_PULSE_IN",
+      "phase_lock_enable": false,
+      "phase_lock_offset": 0,
+      "tas_phase_ns": 180000,
+      "summary": {
+        "samples": 177,
+        "fc_mean": 99.27474275130022,
+        "fc_min": 86.1014441906305,
+        "fc_p01": 86.1014441906305,
+        "fc_p05": 97.44250345797741,
+        "fps_mean": 9.821503732212777,
+        "fps_min": 2.1718561244233534,
+        "jit_mean": 6908.413934001648,
+        "pps_mean": 1733.0474681661628
+      }
+    },
+    {
+      "name": "ptp_plock_off_phase180k",
+      "timestamp_mode": "TIME_FROM_PTP_1588",
+      "phase_lock_enable": false,
+      "phase_lock_offset": 0,
+      "tas_phase_ns": 180000,
+      "summary": {
+        "samples": 177,
+        "fc_mean": 99.16118717282887,
+        "fc_min": 90.20996761029132,
+        "fc_p01": 90.20996761029132,
+        "fc_p05": 97.6292792305842,
+        "fps_mean": 9.814552373052662,
+        "fps_min": 2.241445557883116,
+        "jit_mean": 4138.396849761731,
+        "pps_mean": 1867.4245551156391
+      }
+    },
+    {
+      "name": "ptp_plock_on_off0_phase300k",
+      "timestamp_mode": "TIME_FROM_PTP_1588",
+      "phase_lock_enable": true,
+      "phase_lock_offset": 0,
+      "tas_phase_ns": 300000,
+      "summary": {
+        "samples": 177,
+        "fc_mean": 99.31421337348935,
+        "fc_min": 94.79743431467318,
+        "fc_p01": 94.79743431467318,
+        "fc_p05": 97.22463975536351,
+        "fps_mean": 9.808406795178302,
+        "fps_min": 1.9333790006768754,
+        "jit_mean": 2689.719401777947,
+        "pps_mean": 1923.2533460832328
+      }
+    },
+    {
+      "name": "ptp_plock_on_off90k_phase300k",
+      "timestamp_mode": "TIME_FROM_PTP_1588",
+      "phase_lock_enable": true,
+      "phase_lock_offset": 90000,
+      "tas_phase_ns": 300000,
+      "summary": {
+        "samples": 177,
+        "fc_mean": 99.06240807798186,
+        "fc_min": 89.21885163367361,
+        "fc_p01": 89.21885163367361,
+        "fc_p05": 96.38846071383128,
+        "fps_mean": 9.819462418809685,
+        "fps_min": 2.1757321348528182,
+        "jit_mean": 4704.602175438549,
+        "pps_mean": 1891.0850689655113
+      }
+    },
+    {
+      "name": "syncin_plock_on_off90k_phase300k",
+      "timestamp_mode": "TIME_FROM_SYNC_PULSE_IN",
+      "phase_lock_enable": true,
+      "phase_lock_offset": 90000,
+      "tas_phase_ns": 300000,
+      "summary": {
+        "samples": 178,
+        "fc_mean": 54.13212262737005,
+        "fc_min": 16.999552626172232,
+        "fc_p01": 16.999552626172232,
+        "fc_p05": 19.166324563115047,
+        "fps_mean": 6.440580435379065,
+        "fps_min": 0.6977489189684166,
+        "jit_mean": 56410.51164375735,
+        "pps_mean": 904.1486294469616
+      }
+    }
+  ],
+  "ranked": [
+    {
+      "name": "ptp_plock_on_off0_phase300k",
+      "timestamp_mode": "TIME_FROM_PTP_1588",
+      "phase_lock_enable": true,
+      "phase_lock_offset": 0,
+      "tas_phase_ns": 300000,
+      "summary": {
+        "samples": 177,
+        "fc_mean": 99.31421337348935,
+        "fc_min": 94.79743431467318,
+        "fc_p01": 94.79743431467318,
+        "fc_p05": 97.22463975536351,
+        "fps_mean": 9.808406795178302,
+        "fps_min": 1.9333790006768754,
+        "jit_mean": 2689.719401777947,
+        "pps_mean": 1923.2533460832328
+      }
+    },
+    {
+      "name": "ptp_plock_off_phase180k",
+      "timestamp_mode": "TIME_FROM_PTP_1588",
+      "phase_lock_enable": false,
+      "phase_lock_offset": 0,
+      "tas_phase_ns": 180000,
+      "summary": {
+        "samples": 177,
+        "fc_mean": 99.16118717282887,
+        "fc_min": 90.20996761029132,
+        "fc_p01": 90.20996761029132,
+        "fc_p05": 97.6292792305842,
+        "fps_mean": 9.814552373052662,
+        "fps_min": 2.241445557883116,
+        "jit_mean": 4138.396849761731,
+        "pps_mean": 1867.4245551156391
+      }
+    },
+    {
+      "name": "ptp_plock_on_off90k_phase300k",
+      "timestamp_mode": "TIME_FROM_PTP_1588",
+      "phase_lock_enable": true,
+      "phase_lock_offset": 90000,
+      "tas_phase_ns": 300000,
+      "summary": {
+        "samples": 177,
+        "fc_mean": 99.06240807798186,
+        "fc_min": 89.21885163367361,
+        "fc_p01": 89.21885163367361,
+        "fc_p05": 96.38846071383128,
+        "fps_mean": 9.819462418809685,
+        "fps_min": 2.1757321348528182,
+        "jit_mean": 4704.602175438549,
+        "pps_mean": 1891.0850689655113
+      }
+    },
+    {
+      "name": "syncin_plock_off_phase180k",
+      "timestamp_mode": "TIME_FROM_SYNC_PULSE_IN",
+      "phase_lock_enable": false,
+      "phase_lock_offset": 0,
+      "tas_phase_ns": 180000,
+      "summary": {
+        "samples": 177,
+        "fc_mean": 99.27474275130022,
+        "fc_min": 86.1014441906305,
+        "fc_p01": 86.1014441906305,
+        "fc_p05": 97.44250345797741,
+        "fps_mean": 9.821503732212777,
+        "fps_min": 2.1718561244233534,
+        "jit_mean": 6908.413934001648,
+        "pps_mean": 1733.0474681661628
+      }
+    },
+    {
+      "name": "syncin_plock_on_off90k_phase300k",
+      "timestamp_mode": "TIME_FROM_SYNC_PULSE_IN",
+      "phase_lock_enable": true,
+      "phase_lock_offset": 90000,
+      "tas_phase_ns": 300000,
+      "summary": {
+        "samples": 178,
+        "fc_mean": 54.13212262737005,
+        "fc_min": 16.999552626172232,
+        "fc_p01": 16.999552626172232,
+        "fc_p05": 19.166324563115047,
+        "fps_mean": 6.440580435379065,
+        "fps_min": 0.6977489189684166,
+        "jit_mean": 56410.51164375735,
+        "pps_mean": 904.1486294469616
+      }
+    }
+  ],
+  "best": {
+    "name": "ptp_plock_on_off0_phase300k",
+    "timestamp_mode": "TIME_FROM_PTP_1588",
+    "phase_lock_enable": true,
+    "phase_lock_offset": 0,
+    "tas_phase_ns": 300000,
+    "summary": {
+      "samples": 177,
+      "fc_mean": 99.31421337348935,
+      "fc_min": 94.79743431467318,
+      "fc_p01": 94.79743431467318,
+      "fc_p05": 97.22463975536351,
+      "fps_mean": 9.808406795178302,
+      "fps_min": 1.9333790006768754,
+      "jit_mean": 2689.719401777947,
+      "pps_mean": 1923.2533460832328
+    }
+  }
+}

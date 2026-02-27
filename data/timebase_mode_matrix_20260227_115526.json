@@ -1,0 +1,211 @@
+{
+  "timestamp": "20260227_115526",
+  "duration_s": 60.0,
+  "entries_ns": [
+    305625,
+    150000,
+    325625
+  ],
+  "results": [
+    {
+      "name": "syncin_plock_off_phase180k",
+      "timestamp_mode": "TIME_FROM_SYNC_PULSE_IN",
+      "phase_lock_enable": false,
+      "phase_lock_offset": 0,
+      "tas_phase_ns": 180000,
+      "summary": {
+        "samples": 118,
+        "fc_mean": 99.31942288914087,
+        "fc_min": 85.42947823565457,
+        "fc_p01": 85.42947823565457,
+        "fc_p05": 96.54034920295403,
+        "fps_mean": 9.737631128596474,
+        "fps_min": 2.2661166592939264,
+        "jit_mean": 15246.72950182554,
+        "pps_mean": 1793.8858630504974
+      }
+    },
+    {
+      "name": "ptp_plock_off_phase180k",
+      "timestamp_mode": "TIME_FROM_PTP_1588",
+      "phase_lock_enable": false,
+      "phase_lock_offset": 0,
+      "tas_phase_ns": 180000,
+      "summary": {
+        "samples": 118,
+        "fc_mean": 99.53055461249362,
+        "fc_min": 95.15909293910752,
+        "fc_p01": 95.15909293910752,
+        "fc_p05": 96.82066785513722,
+        "fps_mean": 9.723605287642023,
+        "fps_min": 2.159903831533954,
+        "jit_mean": 3720.43942889051,
+        "pps_mean": 1798.4020850939908
+      }
+    },
+    {
+      "name": "ptp_plock_on_off0_phase300k",
+      "timestamp_mode": "TIME_FROM_PTP_1588",
+      "phase_lock_enable": true,
+      "phase_lock_offset": 0,
+      "tas_phase_ns": 300000,
+      "summary": {
+        "samples": 118,
+        "fc_mean": 99.2975646354053,
+        "fc_min": 96.27439845918975,
+        "fc_p01": 96.27439845918975,
+        "fc_p05": 97.78770435066205,
+        "fps_mean": 9.724769814352813,
+        "fps_min": 2.0452108943191405,
+        "jit_mean": 3061.205673898593,
+        "pps_mean": 1780.3818138827778
+      }
+    },
+    {
+      "name": "ptp_plock_on_off90k_phase300k",
+      "timestamp_mode": "TIME_FROM_PTP_1588",
+      "phase_lock_enable": true,
+      "phase_lock_offset": 90000,
+      "tas_phase_ns": 300000,
+      "summary": {
+        "samples": 118,
+        "fc_mean": 98.93620681207966,
+        "fc_min": 89.42239051653253,
+        "fc_p01": 89.42239051653253,
+        "fc_p05": 96.41385977464603,
+        "fps_mean": 9.719474580697614,
+        "fps_min": 2.2450771378489076,
+        "jit_mean": 5407.329093019445,
+        "pps_mean": 1960.1165771263409
+      }
+    },
+    {
+      "name": "syncin_plock_on_off90k_phase300k",
+      "timestamp_mode": "TIME_FROM_SYNC_PULSE_IN",
+      "phase_lock_enable": true,
+      "phase_lock_offset": 90000,
+      "tas_phase_ns": 300000,
+      "summary": {
+        "samples": 119,
+        "fc_mean": 77.26743853348277,
+        "fc_min": 50.6662451033452,
+        "fc_p01": 50.6662451033452,
+        "fc_p05": 50.6662451033452,
+        "fps_mean": 9.325960583027229,
+        "fps_min": 1.0806515947181825,
+        "jit_mean": 63037.93799107225,
+        "pps_mean": 1286.0396922089953
+      }
+    }
+  ],
+  "ranked": [
+    {
+      "name": "ptp_plock_on_off0_phase300k",
+      "timestamp_mode": "TIME_FROM_PTP_1588",
+      "phase_lock_enable": true,
+      "phase_lock_offset": 0,
+      "tas_phase_ns": 300000,
+      "summary": {
+        "samples": 118,
+        "fc_mean": 99.2975646354053,
+        "fc_min": 96.27439845918975,
+        "fc_p01": 96.27439845918975,
+        "fc_p05": 97.78770435066205,
+        "fps_mean": 9.724769814352813,
+        "fps_min": 2.0452108943191405,
+        "jit_mean": 3061.205673898593,
+        "pps_mean": 1780.3818138827778
+      }
+    },
+    {
+      "name": "ptp_plock_off_phase180k",
+      "timestamp_mode": "TIME_FROM_PTP_1588",
+      "phase_lock_enable": false,
+      "phase_lock_offset": 0,
+      "tas_phase_ns": 180000,
+      "summary": {
+        "samples": 118,
+        "fc_mean": 99.53055461249362,
+        "fc_min": 95.15909293910752,
+        "fc_p01": 95.15909293910752,
+        "fc_p05": 96.82066785513722,
+        "fps_mean": 9.723605287642023,
+        "fps_min": 2.159903831533954,
+        "jit_mean": 3720.43942889051,
+        "pps_mean": 1798.4020850939908
+      }
+    },
+    {
+      "name": "ptp_plock_on_off90k_phase300k",
+      "timestamp_mode": "TIME_FROM_PTP_1588",
+      "phase_lock_enable": true,
+      "phase_lock_offset": 90000,
+      "tas_phase_ns": 300000,
+      "summary": {
+        "samples": 118,
+        "fc_mean": 98.93620681207966,
+        "fc_min": 89.42239051653253,
+        "fc_p01": 89.42239051653253,
+        "fc_p05": 96.41385977464603,
+        "fps_mean": 9.719474580697614,
+        "fps_min": 2.2450771378489076,
+        "jit_mean": 5407.329093019445,
+        "pps_mean": 1960.1165771263409
+      }
+    },
+    {
+      "name": "syncin_plock_off_phase180k",
+      "timestamp_mode": "TIME_FROM_SYNC_PULSE_IN",
+      "phase_lock_enable": false,
+      "phase_lock_offset": 0,
+      "tas_phase_ns": 180000,
+      "summary": {
+        "samples": 118,
+        "fc_mean": 99.31942288914087,
+        "fc_min": 85.42947823565457,
+        "fc_p01": 85.42947823565457,
+        "fc_p05": 96.54034920295403,
+        "fps_mean": 9.737631128596474,
+        "fps_min": 2.2661166592939264,
+        "jit_mean": 15246.72950182554,
+        "pps_mean": 1793.8858630504974
+      }
+    },
+    {
+      "name": "syncin_plock_on_off90k_phase300k",
+      "timestamp_mode": "TIME_FROM_SYNC_PULSE_IN",
+      "phase_lock_enable": true,
+      "phase_lock_offset": 90000,
+      "tas_phase_ns": 300000,
+      "summary": {
+        "samples": 119,
+        "fc_mean": 77.26743853348277,
+        "fc_min": 50.6662451033452,
+        "fc_p01": 50.6662451033452,
+        "fc_p05": 50.6662451033452,
+        "fps_mean": 9.325960583027229,
+        "fps_min": 1.0806515947181825,
+        "jit_mean": 63037.93799107225,
+        "pps_mean": 1286.0396922089953
+      }
+    }
+  ],
+  "best": {
+    "name": "ptp_plock_on_off0_phase300k",
+    "timestamp_mode": "TIME_FROM_PTP_1588",
+    "phase_lock_enable": true,
+    "phase_lock_offset": 0,
+    "tas_phase_ns": 300000,
+    "summary": {
+      "samples": 118,
+      "fc_mean": 99.2975646354053,
+      "fc_min": 96.27439845918975,
+      "fc_p01": 96.27439845918975,
+      "fc_p05": 97.78770435066205,
+      "fps_mean": 9.724769814352813,
+      "fps_min": 2.0452108943191405,
+      "jit_mean": 3061.205673898593,
+      "pps_mean": 1780.3818138827778
+    }
+  }
+}
