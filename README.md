@@ -2,6 +2,44 @@
 
 LAN9662 + Ouster LiDAR에서 `cycle=781us` TAS를 실측한 레포.
 
+## GitHub Quick View
+
+현재 센서 기준(실측):
+- sensor: `OS1-16`
+- profile: `RNG19_RFL8_SIG16_NIR16`
+- lidar UDP payload: `3328B`
+- packet interval: `781.25us` (`2048x10` 또는 `1024x20`, `columns_per_packet=16`)
+- MTU1500 fragment(IP payload): `[1480, 1480, 376]`
+- fragment on-wire time 합(1GbE, IFG 포함): `28.176us`
+
+핵심 그림:
+- Packet absolute byte map  
+  ![packet-map](data/packet_layout_detailed_20260227_164122_packet.png)
+- One-column byte map  
+  ![column-map](data/packet_layout_detailed_20260227_164122_column.png)
+- Channel offset table  
+  ![channel-table](data/packet_layout_detailed_20260227_164122_channel_table.png)
+- Fragment/IFG timing  
+  ![frag-ifg](data/packet_layout_detailed_20260227_164122_frag_timing.png)
+
+빠른 실행:
+```bash
+cd /home/kim/lidar-tas260226
+python3 scripts/generate_packet_layout_detailed.py --host 192.168.6.11 --mtu 1500
+```
+
+모드 지정 후 다시 그리기:
+```bash
+cd /home/kim/lidar-tas260226
+python3 scripts/generate_packet_layout_detailed.py \
+  --host 192.168.6.11 \
+  --set-mode 2048x10 \
+  --mtu 1500
+```
+
+해석 한 줄:
+- `781us`는 패킷과 패킷 사이 간격이고, `28.176us`는 분할된 1개 패킷이 선로를 점유하는 시간(직렬화+IFG)이다.
+
 ## 결론 (핵심)
 
 - 질문: `TAS open 28us`를 딱 맞출 수 있나?
