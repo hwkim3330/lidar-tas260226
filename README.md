@@ -415,9 +415,10 @@ cd /home/kim/keti-tsn-cli-new
 ## 논문 원고 자료
 
 1. 논문 원고(국문 완성본 v1): `paper/manuscript_draft_ko.md`
-2. 표 자동생성:
+2. 논문 원고(영문 IEEE 스타일 초안 v1): `paper/manuscript_draft_en.md`
+3. 표 자동생성:
 ```bash
 cd /home/kim/lidar-tas260226
 python3 scripts/generate_paper_tables.py
 ```
-3. 생성 표: `paper/results_tables.md`
+4. 생성 표: `paper/results_tables.md`
