@@ -593,6 +593,40 @@ python3 scripts/generate_packet_layout_detailed.py \
   - `*_channel_table.png`: 채널별 시작/끝 바이트 표
   - `*_frag_timing.png`: MTU 분할 + IFG 포함 on-wire 시간(1GbE)
 
+2-15. LiDAR 모드 전부 패킷 실측 매트릭스 (모드 변경 + 재초기화 + UDP 캡처)
+```bash
+cd /home/kim/lidar-tas260226
+python3 scripts/run_lidar_mode_packet_matrix.py \
+  --host 192.168.6.11 \
+  --duration-s 20 \
+  --settle-s 4 \
+  --restore-mode 1024x20
+```
+- 테스트 모드: `512x10`, `512x20`, `1024x10`, `1024x20`, `2048x10`
+- 산출물 예:
+  - `data/mode_packet_matrix_20260227_164427.md`
+  - `data/mode_packet_matrix_20260227_164427.json`
+  - `data/mode_packet_matrix_20260227_164427_512x10_dt_hist.png`
+  - `data/mode_packet_matrix_20260227_164427_512x20_dt_hist.png`
+  - `data/mode_packet_matrix_20260227_164427_1024x10_dt_hist.png`
+  - `data/mode_packet_matrix_20260227_164427_1024x20_dt_hist.png`
+  - `data/mode_packet_matrix_20260227_164427_2048x10_dt_hist.png`
+- 이번 실측 요약:
+  - 패킷 크기: 전 모드 `3328B` 고정
+  - pps:
+    - `512x10`: `~320`
+    - `512x20`: `~640`
+    - `1024x10`: `~640`
+    - `1024x20`: `~1280`
+    - `2048x10`: `~1280`
+  - dt_mean(us):
+    - `512x10`: `~3125`
+    - `512x20`: `~1562.6`
+    - `1024x10`: `~1562.6`
+    - `1024x20`: `~781.3`
+    - `2048x10`: `~781.3`
+  - 결론: 모드 변경해도 payload 3328B/fragment 구조는 동일, 주기는 mode의 frame rate/columns 조합에 따라 변함.
+
 ## 재적용/재검증 체크리스트
 
 1. LiDAR/웹서버 기동 확인
