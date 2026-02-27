@@ -42,6 +42,7 @@ python3 scripts/generate_packet_layout_detailed.py \
 
 ## Data Index / 24h
 
+- 오늘 최종 요약: `SUMMARY_20260227.md`
 - 전체 데이터 카탈로그: `data/DATA_CATALOG.md`
 - 현재 핸드오버 요약: `data/HANDOVER_20260227.md`
 
