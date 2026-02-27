@@ -298,6 +298,27 @@ LAN9662 + Ouster LiDAR에서 `cycle=781us` TAS를 실측한 레포.
 - 이번 조건에서는 여전히 `SYNC_PULSE_IN + phase_lock off + phase180k`가 장기 기준 최선.
 - 따라서 운영값은 기존 `305625/150000/325625 @ phase180k`를 유지.
 
+추가 검증 (PTP 상태에서 all-open vs TAS 프로파일 최종 비교, 2026-02-27):
+- 파일:
+  - `data/ptp_final_compare_20260227_152849.json`
+  - `data/ptp_final_compare_20260227_152849.md`
+- 조건:
+  - `ptp4l(phc0) + phc2sys` 동작, 센서 `timestamp_mode=TIME_FROM_PTP_1588`
+  - 커널 UDP 수신 버퍼 상향:
+    - `net.core.rmem_max=33554432`
+    - `net.core.rmem_default=8388608`
+    - `net.core.netdev_max_backlog=5000`
+- 결과(90s/case):
+  - `ptp_allopen`: `fc_mean=99.999`, `fc_p01=99.900`, `fps_mean=9.814`, `udp_err_delta=0`
+  - `ptp_plock_on_phase340k`: `fc_mean=99.947`, `fc_p01=94.746`, `udp_err_delta=0`
+  - `ptp_plock_off_phase180k`: `fc_mean=99.870`, `fc_p01=87.227`, `udp_err_delta=0`
+  - best: `ptp_allopen`
+
+해석:
+- "패킷 이상"으로 보이던 증상은 주로 수신 버퍼/스케줄 영향으로 확인됨.
+- PTP에서 tail 안정성 기준으로는 현재 `all-open`이 가장 안정적임.
+- 즉, 단기 스윕에서 얻은 TAS 위상 최적점은 장기 tail 기준으로 유지되지 않을 수 있음.
+
 ## 라이다 시작점(위치) 어떻게 맞췄는가
 
 정확히는 \"LiDAR 시작점을 직접 고정\"한 게 아니라, 아래 방식으로 **상대 위상 정렬**을 수행:

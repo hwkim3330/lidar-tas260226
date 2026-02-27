@@ -1,0 +1,92 @@
+{
+  "cases": [
+    {
+      "name": "ptp_allopen",
+      "ts": "TIME_FROM_PTP_1588",
+      "pl": true,
+      "off": 0,
+      "tas": "allopen",
+      "phase": 0,
+      "summary": {
+        "samples": 176,
+        "fc_mean": 99.99898266658191,
+        "fc_min": 99.90039062499997,
+        "fc_p01": 99.90039062499997,
+        "fc_p05": 99.99966274172442,
+        "fps_mean": 9.813615711912956,
+        "fps_min": 2.1710912873579717,
+        "jit_mean": 2969.7447710553024,
+        "pps_mean": 1947.844408871555,
+        "bw_mean": 33.44348943896502,
+        "udp_pkt_recv_err_delta": 0,
+        "udp_rcvbuf_err_delta": 0
+      }
+    },
+    {
+      "name": "ptp_plock_on_phase340k",
+      "ts": "TIME_FROM_PTP_1588",
+      "pl": true,
+      "off": 0,
+      "tas": "profile",
+      "phase": 340000,
+      "summary": {
+        "samples": 177,
+        "fc_mean": 99.94667116195085,
+        "fc_min": 94.74635253906249,
+        "fc_p01": 94.74635253906249,
+        "fc_p05": 99.98488033208979,
+        "fps_mean": 9.820103410382863,
+        "fps_min": 2.326499293451051,
+        "jit_mean": 2830.2889491605993,
+        "pps_mean": 1728.5387069396188,
+        "bw_mean": 33.46208660282703,
+        "udp_pkt_recv_err_delta": 0,
+        "udp_rcvbuf_err_delta": 0
+      }
+    },
+    {
+      "name": "ptp_plock_off_phase180k",
+      "ts": "TIME_FROM_PTP_1588",
+      "pl": false,
+      "off": 0,
+      "tas": "profile",
+      "phase": 180000,
+      "summary": {
+        "samples": 176,
+        "fc_mean": 99.87029659664499,
+        "fc_min": 87.22656249999996,
+        "fc_p01": 87.22656249999996,
+        "fc_p05": 99.96323884796081,
+        "fps_mean": 9.821888958031106,
+        "fps_min": 2.2160258244091127,
+        "jit_mean": 5527.19416946544,
+        "pps_mean": 1768.7543038890417,
+        "bw_mean": 33.464683511923674,
+        "udp_pkt_recv_err_delta": 0,
+        "udp_rcvbuf_err_delta": 0
+      }
+    }
+  ],
+  "best": {
+    "name": "ptp_allopen",
+    "ts": "TIME_FROM_PTP_1588",
+    "pl": true,
+    "off": 0,
+    "tas": "allopen",
+    "phase": 0,
+    "summary": {
+      "samples": 176,
+      "fc_mean": 99.99898266658191,
+      "fc_min": 99.90039062499997,
+      "fc_p01": 99.90039062499997,
+      "fc_p05": 99.99966274172442,
+      "fps_mean": 9.813615711912956,
+      "fps_min": 2.1710912873579717,
+      "jit_mean": 2969.7447710553024,
+      "pps_mean": 1947.844408871555,
+      "bw_mean": 33.44348943896502,
+      "udp_pkt_recv_err_delta": 0,
+      "udp_rcvbuf_err_delta": 0
+    }
+  }
+}
