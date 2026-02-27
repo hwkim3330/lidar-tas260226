@@ -495,6 +495,21 @@ python3 scripts/run_phase_lock_tas_2d.py \
   --settle-s 0.25
 ```
 
+2-12. Ouster 문서 공식 기반 패킷 타이밍/주기 그래프 분석
+```bash
+cd /home/kim/lidar-tas260226
+python3 scripts/analyze_lidar_packet_timing.py --duration-s 60
+```
+- 문서 기준:
+  - https://static.ouster.dev/sensor-docs/image_route1/image_route2/sensor_data/sensor-data.html#lidar-data-packet-format
+- 산출물 예:
+  - `data/packet_timing_20260227_160116.md`
+  - `data/packet_timing_20260227_160116.json`
+  - `data/packet_timing_20260227_160116_dt_series.png`
+  - `data/packet_timing_20260227_160116_dt_hist.png`
+  - `data/packet_timing_20260227_160116_len_hist.png`
+  - `data/packet_timing_20260227_160116_frame_counts.png`
+
 ## 재적용/재검증 체크리스트
 
 1. LiDAR/웹서버 기동 확인
