@@ -1,0 +1,136 @@
+\documentclass[conference]{IEEEtran}
+
+\usepackage{cite}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{siunitx}
+\usepackage{url}
+
+\title{TSN TAS Optimization for Ouster LiDAR on LAN9662: Experimental Study at 781.25~\si{\micro\second} Cycle}
+
+\author{
+\IEEEauthorblockN{Author Name}
+\IEEEauthorblockA{Affiliation\\
+Email: author@example.com}
+}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This paper presents an experimental optimization study of Time-Aware Shaper (TAS) parameters for a single Ouster LiDAR stream on a LAN9662-based TSN switch. We evaluate whether very narrow open windows are operationally stable, how phase alignment affects robustness, and whether nanosecond-level close-split tuning improves tail behavior. Results show that open windows at or below \SI{50}{\micro\second} do not achieve all-open-equivalent behavior in this setup. At a cycle of \SI{781250}{\nano\second} and open duration \SI{150000}{\nano\second}, joint optimization of close-front/back split and phase improves long-run robustness over all-open by +0.661 percentage points in lower-tail frame completeness (\texttt{fc\_p01}) while maintaining equivalent FPS. The best operating profile is \texttt{305625/150000/325625 ns} (close/open/close) with phase \texttt{180000 ns}.
+\end{abstract}
+
+\begin{IEEEkeywords}
+TSN, TAS, IEEE 802.1Qbv, LiDAR, LAN9662, deterministic Ethernet
+\end{IEEEkeywords}
+
+\section{Introduction}
+LiDAR streams are periodic and latency-sensitive. While TAS can provide deterministic egress scheduling, practical deployments face phase drift, packetization effects, and non-ideal timing control. Therefore, robust operating points should be selected using tail-sensitive metrics rather than means alone.
+
+This work addresses three practical questions:
+\begin{enumerate}
+\item Are extremely narrow windows (\SIrange{28}{30}{\micro\second}) stable in operation?
+\item Can LiDAR emission timing be reliably aligned to TAS base-time?
+\item Does nanosecond-level front/back close-split tuning improve robustness at fixed open width?
+\end{enumerate}
+
+\section{Queueing Perspective}
+When a TAS gate is closed, frames accumulate in egress queue(s); when the gate opens, the backlog drains in bursts. A cycle-level approximation is:
+\begin{equation}
+B_{k+1} = \max(0, B_k + A_k - S_k)
+\end{equation}
+where $B_k$ is cycle-start backlog, $A_k$ arrivals during closed periods, and $S_k$ service during open periods.
+
+This study does not directly measure internal switch queue memory in bytes. Instead, queueing behavior is inferred from stream-level observables: frame completeness, FPS, and gap jitter.
+
+\section{Experimental Setup}
+\subsection{Platform}
+\begin{itemize}
+\item Switch: LAN9662 board
+\item Sensor: Ouster LiDAR (UDP stream)
+\item TAS control: \texttt{keti-tsn} patch/fetch
+\item Metrics source: local web API (\texttt{/api/stats})
+\end{itemize}
+
+\subsection{Fixed Conditions}
+\begin{itemize}
+\item Cycle: \SI{781250}{\nano\second} (\SI{781.25}{\micro\second})
+\item Primary selection metric: \texttt{fc\_p01}
+\item Secondary metrics: \texttt{fc\_mean}, \texttt{fps\_mean}, \texttt{fps\_min}
+\item Long-run validation: \SI{600}{\second} soak per candidate
+\end{itemize}
+
+\subsection{Method}
+The search flow is:
+\begin{enumerate}
+\item phase sweep over one cycle,
+\item open-width exploration near stability boundary,
+\item absolute nanosecond tuning of close-front/back split,
+\item short-run candidate screening followed by \SI{600}{\second} soak comparison.
+\end{enumerate}
+
+\section{Results}
+\subsection{Very Narrow Open Windows}
+Small windows remained far below all-open baseline:
+\begin{itemize}
+\item all-open: \texttt{fc\_mean=99.926}, \texttt{fc\_p01=98.084}, \texttt{fps\_mean=9.870}
+\item \SI{30}{\micro\second}: \texttt{fc\_mean=90.389}, \texttt{fps\_mean=4.889}
+\item \SI{40}{\micro\second}: \texttt{fc\_mean=93.843}, \texttt{fps\_mean=5.773}
+\item \SI{50}{\micro\second}: \texttt{fc\_mean=97.274}, \texttt{fps\_mean=6.117}
+\end{itemize}
+Thus, \SI{50}{\micro\second} and below is not a stable operating region in this environment.
+
+\subsection{Boundary Near \SI{150}{\micro\second}}
+Long-run boundary data shows transition between \SI{144}{\micro\second} and \SI{146}{\micro\second}:
+\begin{itemize}
+\item \SI{146}{\micro\second}, \SI{148}{\micro\second}, \SI{150}{\micro\second}: pass-all across repeats
+\item \SI{144}{\micro\second}: severe collapse (\texttt{comp\_min=25.077})
+\end{itemize}
+Operational margin at \SI{150}{\micro\second} is therefore justified.
+
+\subsection{600 s Deep Optimization}
+Table~\ref{tab:deep} summarizes the final soak comparison.
+The best profile was \texttt{305625/150000/325625 ns} with phase \texttt{180000 ns}.
+Compared with all-open, it improved:
+\begin{itemize}
+\item \texttt{fc\_p01}: +0.661 percentage points (\texttt{96.527 -> 97.187})
+\item \texttt{fc\_mean}: +0.018 percentage points
+\item \texttt{fps\_mean}: effectively unchanged
+\end{itemize}
+
+\begin{table}[t]
+\caption{600 s soak comparison (all-open vs tuned candidates)}
+\label{tab:deep}
+\centering
+\begin{tabular}{lccc}
+\toprule
+Config & fc\_mean (\%) & fc\_p01 (\%) & fps\_mean \\
+\midrule
+all\_open & 99.713 & 96.527 & 10.002 \\
+cand1 (phase 220000) & 99.692 & 96.719 & 10.003 \\
+cand2 (phase 200000) & 99.706 & 96.812 & 10.003 \\
+cand3 (phase 180000) & 99.731 & 97.187 & 10.002 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Discussion}
+Results indicate that robust performance is governed by relative phase robustness rather than forcing an absolute LiDAR start epoch. Importantly, candidates with similar means can differ in lower-tail behavior. For this reason, \texttt{fc\_p01}-first ranking better matches operational reliability.
+
+\section{Conclusion}
+For single-LiDAR operation at \SI{781250}{\nano\second} cycle on this platform:
+\begin{enumerate}
+\item Open windows at or below \SI{50}{\micro\second} are not operationally stable.
+\item Stability boundary lies around \SI{146}{\micro\second}; \SI{150}{\micro\second} is a practical operating margin.
+\item Nanosecond split plus phase optimization improves tail robustness.
+\item Recommended profile: \texttt{305625/150000/325625 ns}, phase \texttt{180000 ns}, \texttt{phase\_lock=false}.
+\end{enumerate}
+
+\section*{Limitations and Future Work}
+This is a single-platform empirical study. Future work includes multi-day repetitions with confidence intervals, PTP on/off drift tracking, multi-LiDAR slot scheduling validation, and statistical significance testing.
+
+\bibliographystyle{IEEEtran}
+\bibliography{refs}
+
+\end{document}

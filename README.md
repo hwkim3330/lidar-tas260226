@@ -422,3 +422,10 @@ cd /home/kim/lidar-tas260226
 python3 scripts/generate_paper_tables.py
 ```
 4. 생성 표: `paper/results_tables.md`
+5. IEEE LaTeX 원고: `paper/ieee/main.tex`
+6. IEEE PDF 빌드:
+```bash
+cd /home/kim/lidar-tas260226/paper/ieee
+make
+```
+   - 필요 도구: `pdflatex`, `bibtex` (예: `texlive-latex-extra`, `texlive-bibtex-extra`)
