@@ -6,6 +6,7 @@
 
 ## 2) 왜 기존과 다른가 (핵심)
 - `./WHY_RESULTS_DIFFER.md`
+- `./NIC_TIMESTAMP_GAP_ANALYSIS.md`
 
 ## 3) 데이터셋 전체 지도
 - `../data/DATA_CATALOG.md`

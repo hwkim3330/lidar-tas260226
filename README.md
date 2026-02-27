@@ -50,6 +50,7 @@ python3 scripts/generate_packet_layout_detailed.py \
 
 - 마스터 인덱스: `docs/MASTER_INDEX.md`
 - 왜 결과가 다른지: `docs/WHY_RESULTS_DIFFER.md`
+- NIC 경로별 측정 차이(USB vs PCIe): `docs/NIC_TIMESTAMP_GAP_ANALYSIS.md`
 - 데이터셋 맵: `docs/DATASET_MAP.md`
 - 재현 런북: `docs/RUNBOOK_REPRO.md`
 - 운영 체크리스트: `docs/OPS_CHECKLIST.md`
