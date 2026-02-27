@@ -270,6 +270,34 @@ LAN9662 + Ouster LiDAR에서 `cycle=781us` TAS를 실측한 레포.
   "현재 경로/위상 조건에서 붕괴가 시작되는 누적 backlog 규모"의 간접 추정치임.
 - 즉 큐 메모리 단독값이라기보다, 큐 + 도착버스트 + 위상 오차가 합쳐진 유효 backlog 한계로 해석하는 것이 타당함.
 
+추가 검증 (메인보드 NIC + PTP master 정밀 스윕, 2026-02-27):
+- 배선 변경:
+  - LiDAR 경로를 `enp4s0`(HW timestamp 지원)로 이동
+  - 인터넷은 별도 USB NIC(`enx00e04c6812d1`)로 분리
+- PTP:
+  - `ptp4l -i enp4s0 -m`로 host를 grandmaster로 운용 후 센서를 `TIME_FROM_PTP_1588`로 실험
+- 파일:
+  - `data/phaselock_tas_2d_20260227_135257.json`
+  - `data/phaselock_tas_2d_20260227_135257.md`
+  - `data/ptp_master_soak_compare_20260227_141403.json`
+  - `data/ptp_master_soak_compare_20260227_141403.md`
+
+요약:
+- 2D 단기 스윕(1s 샘플) best:
+  - `timestamp_mode=TIME_FROM_PTP_1588`
+  - `phase_lock=true`, `phase_lock_offset=60000`
+  - `tas_phase=520000ns`
+  - `fc_mean=99.443`, `fc_p01=99.025`
+- 장시간 soak(120s) 비교에서는 단기 best가 유지되지 않음:
+  - `ptp + phase_lock on (off60k, phase520k)`: `fc_p01=90.723`
+  - `ptp + phase_lock off (phase180k)`: `fc_p01=90.599`
+  - `sync_in + phase_lock off (phase180k)`: `fc_p01=91.061`  ← best
+
+해석:
+- PTP 환경에서도 "단기 최고점 = 장기 안정점"이 아님.
+- 이번 조건에서는 여전히 `SYNC_PULSE_IN + phase_lock off + phase180k`가 장기 기준 최선.
+- 따라서 운영값은 기존 `305625/150000/325625 @ phase180k`를 유지.
+
 ## 라이다 시작점(위치) 어떻게 맞췄는가
 
 정확히는 \"LiDAR 시작점을 직접 고정\"한 게 아니라, 아래 방식으로 **상대 위상 정렬**을 수행:
@@ -432,6 +460,18 @@ python3 scripts/run_queue_infer_tests.py \
   --fail-fps 8 \
   --warmup-s 10 \
   --fail-consecutive 5
+```
+
+2-11. PTP master 상태에서 phase_lock 2D 정밀 스윕
+```bash
+cd /home/kim/lidar-tas260226
+python3 scripts/run_phase_lock_tas_2d.py \
+  --timestamp-mode TIME_FROM_PTP_1588 \
+  --phase-lock-offsets 0,30000,60000,90000,120000 \
+  --phase-step-ns 10000 \
+  --duration-s 1.0 \
+  --sample-s 0.2 \
+  --settle-s 0.25
 ```
 
 ## 재적용/재검증 체크리스트

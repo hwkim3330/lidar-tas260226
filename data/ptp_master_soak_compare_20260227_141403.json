@@ -1,0 +1,76 @@
+{
+  "cases": [
+    {
+      "name": "ptp_plock_on_off60k_phase520k",
+      "ts": "TIME_FROM_PTP_1588",
+      "pl": true,
+      "off": 60000,
+      "phase": 520000,
+      "summary": {
+        "samples": 236,
+        "fc_mean": 96.9126550289818,
+        "fc_min": 89.17805533144092,
+        "fc_p01": 90.72294998815278,
+        "fc_p05": 92.38447239930395,
+        "fps_mean": 9.863990075872774,
+        "fps_min": 2.3733602355195007,
+        "jit_mean": 2524.5555038651655,
+        "pps_mean": 1685.576422177632
+      }
+    },
+    {
+      "name": "ptp_plock_off_phase180k",
+      "ts": "TIME_FROM_PTP_1588",
+      "pl": false,
+      "off": 0,
+      "phase": 180000,
+      "summary": {
+        "samples": 236,
+        "fc_mean": 96.49599579018724,
+        "fc_min": 88.75551133599164,
+        "fc_p01": 90.59909815444907,
+        "fc_p05": 92.70456523681332,
+        "fps_mean": 9.858923836680482,
+        "fps_min": 1.9053827673214667,
+        "jit_mean": 3714.830064071836,
+        "pps_mean": 1661.5223208528432
+      }
+    },
+    {
+      "name": "syncin_plock_off_phase180k",
+      "ts": "TIME_FROM_SYNC_PULSE_IN",
+      "pl": false,
+      "off": 0,
+      "phase": 180000,
+      "summary": {
+        "samples": 236,
+        "fc_mean": 96.77060051138189,
+        "fc_min": 90.76374914983447,
+        "fc_p01": 91.06079343713733,
+        "fc_p05": 93.32258863951466,
+        "fps_mean": 9.862119303794074,
+        "fps_min": 2.056246068490725,
+        "jit_mean": 2714.3265881215007,
+        "pps_mean": 1660.5807543843944
+      }
+    }
+  ],
+  "best": {
+    "name": "syncin_plock_off_phase180k",
+    "ts": "TIME_FROM_SYNC_PULSE_IN",
+    "pl": false,
+    "off": 0,
+    "phase": 180000,
+    "summary": {
+      "samples": 236,
+      "fc_mean": 96.77060051138189,
+      "fc_min": 90.76374914983447,
+      "fc_p01": 91.06079343713733,
+      "fc_p05": 93.32258863951466,
+      "fps_mean": 9.862119303794074,
+      "fps_min": 2.056246068490725,
+      "jit_mean": 2714.3265881215007,
+      "pps_mean": 1660.5807543843944
+    }
+  }
+}
