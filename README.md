@@ -557,6 +557,38 @@ python3 scripts/tas_781_wide_to_narrow.py \
   --base-time-offset-sec 2
 ```
 
+## Web Server v2 (해상도 모드 변경 + 배경기반 움직임 추적)
+
+기존 8080 서버와 충돌하지 않도록 기본 포트는 `8081` 사용.
+
+```bash
+cd /home/kim/lidar-tas260226
+./scripts/run_web_v2.sh
+```
+
+직접 실행:
+```bash
+cd /home/kim/lidar-tas260226
+python3 scripts/lidar_tas_server_v2.py \
+  --port 8081 \
+  --lidar-host 192.168.6.11 \
+  --lidar-port 7502 \
+  --keti-tsn-dir /home/kim/keti-tsn-cli-new
+```
+
+주요 기능:
+- LiDAR 모드 변경: `512x10`, `512x20`, `1024x10`, `1024x20`, `2048x10`
+- 모드 변경 시 센서 `reinitialize` 수행 후 수신 스레드 자동 재연결
+- 배경(초기 20프레임) 기반 moving points 추출 + moving objects(클러스터) 추적
+- TAS 게이트 API (`/api/gate`, `/api/gate_multi`) 유지
+
+확인 API:
+```bash
+curl -s http://127.0.0.1:8081/api/lidar/config | jq
+curl -s http://127.0.0.1:8081/api/stats | jq
+curl -s -X POST http://127.0.0.1:8081/api/motion/reset_background | jq
+```
+
 ## PTP 메모
 
 - `enxc84d4420405b`(USB r8152): HW timestamp 미지원 (`ptp4l` 불가)
