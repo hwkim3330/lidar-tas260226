@@ -46,6 +46,14 @@ python3 scripts/generate_packet_layout_detailed.py \
 - 전체 데이터 카탈로그: `data/DATA_CATALOG.md`
 - 현재 핸드오버 요약: `data/HANDOVER_20260227.md`
 
+## Docs (100h-level)
+
+- 마스터 인덱스: `docs/MASTER_INDEX.md`
+- 왜 결과가 다른지: `docs/WHY_RESULTS_DIFFER.md`
+- 데이터셋 맵: `docs/DATASET_MAP.md`
+- 재현 런북: `docs/RUNBOOK_REPRO.md`
+- 운영 체크리스트: `docs/OPS_CHECKLIST.md`
+
 24시간 패킷 수집(라이다 ON 상태에서 실행):
 ```bash
 cd /home/kim/lidar-tas260226
