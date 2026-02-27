@@ -247,6 +247,29 @@ LAN9662 + Ouster LiDAR에서 `cycle=781us` TAS를 실측한 레포.
 - 단, phase_lock은 offset 선택이 잘못되면 성능이 크게 악화됨.
 - 현재 장비에서는 `offset=0`이 가장 안전하고, `offset=90000`은 비권장.
 
+추가 검증 (큐 간접 추정: 경계 이하 open에서 time-to-drop 역산, 2026-02-27):
+- 파일:
+  - `data/queue_infer_20260227_125740.json`
+  - `data/queue_infer_20260227_125740.md`
+  - `data/queue_infer_20260227_130529.json`
+  - `data/queue_infer_20260227_130529.md`
+- 스크립트:
+  - `scripts/run_queue_infer_tests.py`
+- 방법:
+  - 안정 기준 `open=146us`를 reference로 두고,
+  - `145.5/145.0/144.5us` 등 경계 이하에서 `t_drop`(연속 fail 발생 시점)을 측정
+  - 부족 서비스율(`deficit_Bps`)과 `t_drop`를 곱해 backlog 규모를 역산
+- 결과(재측정 `queue_infer_20260227_130529`):
+  - `145.5us`: 70초 내 미붕괴(`t_drop=None`) 2/2
+  - `145.0us`: `t_drop≈10.9s` (2/2)
+  - `144.5us`: `t_drop≈10.86s` (2/2)
+  - 역산 backlog 범위: 약 `1.75MB ~ 2.61MB` (중앙값 약 `2.18MB`)
+
+해석:
+- 본 값은 **스위치 내부 큐 절대용량**이 아니라,
+  "현재 경로/위상 조건에서 붕괴가 시작되는 누적 backlog 규모"의 간접 추정치임.
+- 즉 큐 메모리 단독값이라기보다, 큐 + 도착버스트 + 위상 오차가 합쳐진 유효 backlog 한계로 해석하는 것이 타당함.
+
 ## 라이다 시작점(위치) 어떻게 맞췄는가
 
 정확히는 \"LiDAR 시작점을 직접 고정\"한 게 아니라, 아래 방식으로 **상대 위상 정렬**을 수행:
@@ -395,6 +418,20 @@ cd /home/kim/lidar-tas260226
 python3 scripts/run_timebase_mode_matrix.py \
   --duration-s 60 \
   --sample-s 0.5
+```
+
+2-10. 큐 간접 추정(time-to-drop 역산)
+```bash
+cd /home/kim/lidar-tas260226
+python3 scripts/run_queue_infer_tests.py \
+  --test-opens-us 145.5,145,144.5 \
+  --repeats 2 \
+  --duration-s 70 \
+  --step-s 0.2 \
+  --fail-fc-pct 90 \
+  --fail-fps 8 \
+  --warmup-s 10 \
+  --fail-consecutive 5
 ```
 
 ## 재적용/재검증 체크리스트
