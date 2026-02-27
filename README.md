@@ -40,6 +40,23 @@ python3 scripts/generate_packet_layout_detailed.py \
 해석 한 줄:
 - `781us`는 패킷과 패킷 사이 간격이고, `28.176us`는 분할된 1개 패킷이 선로를 점유하는 시간(직렬화+IFG)이다.
 
+## Data Index / 24h
+
+- 전체 데이터 카탈로그: `data/DATA_CATALOG.md`
+- 현재 핸드오버 요약: `data/HANDOVER_20260227.md`
+
+24시간 패킷 수집(라이다 ON 상태에서 실행):
+```bash
+cd /home/kim/lidar-tas260226
+./scripts/run_24h_packet_soak.sh
+```
+
+완료 후 결과 확인:
+```bash
+cd /home/kim/lidar-tas260226
+ls -1 data | rg 'packet_timing_.*\\.(md|json)|packet_soak_24h_'
+```
+
 ## 결론 (핵심)
 
 - 질문: `TAS open 28us`를 딱 맞출 수 있나?
